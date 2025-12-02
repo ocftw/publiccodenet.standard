@@ -105,4 +105,4 @@
 
 我們有提供[發行新版本](/docs/releasing.md)，與[訂購印刷版標準](/docs/printing.md)的專用詳細文件。
 
-若要進一步瞭解如何使用，以及協助貢獻本專案，請參閱 [`README `](README.md)。
+若要進一步瞭解如何使用，以及協助貢獻本專案，請參閱 [`README`](README.md)。

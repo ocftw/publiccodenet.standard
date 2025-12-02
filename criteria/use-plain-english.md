@@ -58,5 +58,5 @@ redirect_from:
 ## 延伸閱讀
 
 * 符合 W3C 全球資訊網協會《[網頁內容近用性無障礙指引 2.2、3.1.5 之可讀性](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level)》要求，撰寫的文字內容要容易閱讀與理解。
-*  歐盟委員會的《[歐盟無障礙環境命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)》，是高度要求無障礙環境的法規範例。
+* 歐盟委員會的《[歐盟無障礙環境命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)》，是高度要求無障礙環境的法規範例。
 * 美國總務署《[白話語言定義](https://www.plainlanguage.gov/about/definitions/)》。

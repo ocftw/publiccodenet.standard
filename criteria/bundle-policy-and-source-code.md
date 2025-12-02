@@ -53,4 +53,4 @@ redirect_from:
 * 維基百科上的 [BPMN 業務流程模型與標記法](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)。
 * Trisotech 提供的 [BPMN 快速指南](https://www.bpmnquickguide.com/view-bpmn-quick-guide/)。
 * 維基百科上的 [DMN 決策模型與標記法](https://en.wikipedia.org/wiki/Decision_Model_and_Notation)。
-* 維基百科上的[ CMMN 案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。
+* 維基百科上的[CMMN 案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。

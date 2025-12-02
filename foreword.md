@@ -165,7 +165,7 @@ redirect_from:
 ### 探討公共程式的影片
 
 * [「程式協作是城市的未來」@ DecidimFest 2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o)。主講人 Ben Cerveny，講述 Foundation for Public Code 的背景。
-* [ 「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 2019](https://youtube.com/watch?v=QHFkD4xfd6c)。討論採購、法律等主題。
+* [「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 2019](https://youtube.com/watch?v=QHFkD4xfd6c)。討論採購、法律等主題。
 
 ## 參與我們
 
