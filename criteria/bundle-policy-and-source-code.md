@@ -5,52 +5,52 @@ order: 2
 redirect_from:
   - criteria/bundle-policy-and-code
 ---
-# Bundle policy and source code
+# 政策與原始碼要合捆
 
-Access to both [source code](../glossary.md#source-code) and [policy](../glossary.md#policy) documentation provides building blocks for anyone to implement the codebase in their local context or contribute to the further development of the [codebase](../glossary.md#codebase).
+對於想根據所在情境實作程式基底的人，或是想更進一步貢獻[程式基底](../glossary.md#codebase)開發的人來說，能同時取用[原始碼](../glossary.md#source-code)與[政策](../glossary.md#policy)文件兩者，可作為建置成品時的基礎組件。
 
-Understanding the domain and policies within that domain is fundamental to understanding what problems a codebase is trying to solve and how it sets out to solve them.
+瞭解作用範疇與該範疇的政策是基本原則，才能瞭解程式基底試圖想解決的問題是什麼，以及該如何解決這些問題的作法。
 
-To be able to evaluate whether to implement a codebase in a new context, an organization needs to understand what process changes it must choose to make or how to contribute additional configurability to the existing solution in order to adapt it to the new context.
+為了評估是否需要在新的情境中實作程式基底，組織單位需要瞭解必須做出改變的程序有哪些，或是如何對現有解決方案付出額外調整設定，以適應新的情境背景。
 
-## Requirements
+## 需求規定
 
-* The codebase MUST include the policy that the source code is based on.
-* If a policy is based on source code, that source code MUST be included in the codebase, unless used for fraud detection.
-* Policy SHOULD be provided in machine-readable and unambiguous formats.
-* [Continuous integration](../glossary.md#continuous-integration) tests SHOULD validate that the source code and the policy are executed coherently.
+* 程式基底「必須」包含原始碼所根據的政策。
+* 如果政策根據原始碼而來，則該原始碼「必須」包含在程式基底中，用於偵測詐騙的原始碼則可除外。
+* 政策「應該」採用機器可讀且明確的格式。
+* [持續整合](../glossary.md#continuous-integration)測試「應該」驗證原始碼與政策是否有一致執行。
 
-## How to test
+## 測試方式
 
-* Confirm with a civil servant that all policy that the source code is based on is included.
-* Confirm with a civil servant that all source code that the policy is based on is included.
-* Check if policy can be interpreted by a machine.
-* Check the continuous integration tests for coherent execution of source code and policy pass.
+* 與公務人員確認原始碼所根據的所有政策內容都有收錄在內。
+* 與公務人員確認政策所根據的所有原始碼都有收錄在內。
+* 確認政策內容是否能在機器上解讀。
+* 確認原始碼與政策間的執行一致性能通過持續整合測試。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：需要的工作
 
-* Collaborate with developers and designers to make sure there is no mismatch between policy code and source code.
-* Provide the relevant policy texts for inclusion in the [repository](../glossary.md#repository); if the text is not available in English, also provide an English summary. Be sure to include standards that your organization has chosen to adhere to and any organizational processes which impact the development or the deployment context of the codebase for your organization.
-* Provide references and links to texts which support the policies.
-* Document policy in formats that are unambiguous and machine-readable, such as those published by the [Object Management Group](https://www.omg.org/spec/).
-* Track policy with [the same version control](maintain-version-control.md) and documentation used to track source code.
-* Check in regularly to understand how the source code in the codebase has changed and whether it still matches the [intentions of the policy](document-codebase-objectives.md).
-* Include relevant policies which impact the community, codebase, and development, including legal obligations like the [General Data Protection Regulation](https://eur-lex.europa.eu/eli/reg/2016/679/oj) or the [EU Web Accessibility Directive](https://ec.europa.eu/digital-single-market/en/web-accessibility), or human rights policies, like a public organization's commitment to equal opportunity.
+* 與開發人員及設計師合作，確保政策法規與原始碼之間沒有不相符之處。
+* 提供相關政策內文，以便收錄於[儲存庫](../glossary.md#repository)中；如果政策內文沒有英文版，請提供英文版摘要。務必也同時包含貴組織單位所選擇遵守的各項標準，以及影響貴組織單位程式基底開發或部署情境的任何組織單位流程。
+* 請提供政策相關參考資料與連結。
+* 政策內容請使用明確且機器可讀的格式，像是[物件管理群體](https://www.omg.org/spec/)所發表的格式。
+* 追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control.md)與文件。
+* 定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合[政策意圖](document-codebase-objectives.md)。
+* 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR 一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承諾等。
 
-## Managers: what you need to do
+## 管理人員：需要的工作
 
-* Keep policy makers, developers and designers involved and connected throughout the whole development process.
-* Make sure policy makers, developers and designers are working to the same objectives.
+* 讓政策制定者、開發人員與設計師持續參與，並且在整個開發過程中保持聯繫溝通。
+* 確保政策制定者、開發人員與設計師朝相同目標努力。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：需要的工作
 
-* Become familiar with and be able to use the process modelling notation that the policy makers in your organization use.
-* Work together with policy makers to make sure there is no mismatch between policy code and source code.
-* Give feedback on how to make policy documentation more clear.
+* 熟悉並且學會貴組織單位政策制定者所使用的流程模型標記法。
+* 與政策制定者一同合作，確保政策法規與原始碼之間沒有不相符之處。
+* 針對如何讓政策文字更清楚提供意見。
 
-## Further reading
+## 延伸閱讀
 
-* [Business Process Model and Notation](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation) on Wikipedia.
-* [BPMN Quick Guide](https://www.bpmnquickguide.com/view-bpmn-quick-guide/) by Trisotech.
-* [Decision Model and Notation](https://en.wikipedia.org/wiki/Decision_Model_and_Notation) on Wikipedia.
-* [Case Management Model Notation](https://en.wikipedia.org/wiki/CMMN) on Wikipedia.
+* 維基百科上的 [BPMN 業務流程模型與標記法](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)。
+* Trisotech 提供的 [BPMN 快速指南](https://www.bpmnquickguide.com/view-bpmn-quick-guide/)。
+* 維基百科上的 [DMN 決策模型與標記法](https://en.wikipedia.org/wiki/Decision_Model_and_Notation)。
+* 維基百科上的[ CMMN 案例管理模型標記法](https://en.wikipedia.org/wiki/CMMN)。

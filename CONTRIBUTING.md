@@ -1,108 +1,108 @@
-# Contributing to this standard
+# 貢獻此標準
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 
-🙇‍♀️ Thank you for contributing!
+🙇‍♀️ 感謝您的貢獻！
 
-We understand that a standard like this can only be set in collaboration with as many public technologists, policy makers and interested folk as possible.
-Thus we appreciate your input, enjoy feedback and welcome improvements to this project and are very open to collaboration.
+我們理解這樣的標準，只有在盡可能與公共技術人員、政策制定者，以及有興趣的人士協作下才能完成。因此，我們很感謝您的意見，樂意得到回饋，以及歡迎提供改善此專案的建議。我
+們非常開放任何合作的機會。
 
-We love issues and pull requests from everyone.
-If you're not comfortable with GitHub, please join the next [community call](https://github.com/standard-for-public-code/standard-for-public-code/discussions/categories/community-calls) and provide your feedback.
+我們歡迎每個人提出的議題，以及拉取請求。
+如果您不大習慣 GitHub ，歡迎加入下一次的[社群討論](https://github.com/standard-for-public-code/standard-for-public-code/discussions/categories/community-calls)並提供您的意見回饋。
 
-## Problems, suggestions and questions in issues
+## 問題、建議與議題等
 
-A high-level overview of the development that we already have sketched out can be seen in the [roadmap](/docs/roadmap.md).
-Please help development by reporting problems, suggesting changes and asking questions.
-To do this, you can [create a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) for this project in the [GitHub Issues for the Standard for Public Code](https://github.com/standard-for-public-code/standard-for-public-code/issues).
+在[發展路線圖](/docs/roadmap.md)中可查看我們勾勒的精要概覽。
+歡迎回報問題、建議修改，以及發問等，來協助發展。
+您可以到 [Standard for Public Code 的 GitHub 議題](https://github.com/publiccodenet/standard/issues) 頁面中，為本專案[提出 GitHub 議題](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue)。
 
-Or, join in the [discussions](https://github.com/standard-for-public-code/standard-for-public-code/discussions).
+或者，加入[討論區](https://github.com/standard-for-public-code/standard-for-public-code/discussions)。
 
-You don't need to change any of our code or documentation to be a contributor!
+您不一定要修改我們的程式碼或文件，也能成為貢獻者！
 
-## Documentation and code in pull requests
+## 為文件與程式碼提出拉取請求
 
-If you want to add to the documentation or code of one of our projects you should make a pull request.
+如果您想要在我們的專案中，為文件或程式碼加入新內容，您應該提出拉取請求 (Pull Request，亦可簡稱 PR)。
 
-If you never used GitHub, get up to speed with [Understanding the GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow) or follow one of the great free interactive courses in [GitHub Skills](https://skills.github.com/) on working with GitHub and working with MarkDown, the syntax this project's documentation is in.
+若您從未使用過 GitHub，歡迎先[認識 GitHub 作業流程](https://docs.github.com/en/get-started/quickstart/github-flow)，或是參加 [GitHub Skills](https://skills.github.com/) 免費且優質的互動式課程，當中會介紹該如何使用 GitHub 以及 MarkDown 語法。MarkDown 是本專案文件所採用的撰寫語法。
 
-This project is licensed Creative Commons Zero v1.0 Universal, which essentially means that the project, along with your contributions is in the public domain in whatever jurisdiction possible, and everyone can do whatever they want with it.
+本專案採用創用CC 0 1.0 通用式公眾領域貢獻宣告給予授權；這本質上代表本專案，以及您所做出的貢獻，在無論何種司法管轄情況下，都屬於公眾領域，也就是任何人都可以
+任意使用。
 
-### 1. Make your changes
+### 1. 作出您的修改
 
-Contributions should [follow](docs/standard-for-public-code.html) the requirements set out in the criteria of the Standard for Public code itself.
-Reviewers will also be ensuring that contributions are aligned with the [values of public code](foreword.md#values-of-public-code).
-Furthermore, they will review that the contribution conforms to the [standards](#standards-to-follow) and remains coherent with the overall work.
+貢獻內容應該[遵守](docs/standard-for-public-code.html)《公共程式標準》自身所列出的準則規定。審查人員同時也會確保貢獻內容，符合
+[公共程式的價值](foreword.md#values-of-public-code)。此外，他們也會審查貢獻是否遵循[標準](#standards-to-follow)，且與整體作品有所連貫。
 
-This project uses the [GitFlow branching model and workflow](https://nvie.com/posts/a-successful-git-branching-model/).
-When you've forked this repository, please make sure to create a feature branch following the GitFlow model.
+本專案使用 [GitFlow 分支與工作流程](https://nvie.com/posts/a-successful-git-branching-model/)。
+當您對此儲存庫作分支以後，請務必依照 GitFlow 模型建立新功能分支。
 
-Add your changes in commits [with a message that explains them](https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message).
-If more than one type of change is needed, group logically related changes into separate commits.
-For example, white-space fixes could be a separate commit from text content changes.
-When adding new files, select file formats that are easily viewed in a `diff`, for instance, `.svg` is preferable to a binary image.
-Document choices or decisions you make in the commit message, this will enable everyone to be informed of your choices in the future.
+將您所作的變更內容加入送交版次，[並附上內容說明](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)。
+如果需要作出多種類型的變更，請將相關變更依據邏輯分類，不同類型各自放在不同的送交版次中。
+例如：修正空白、以及文字內容更動，兩者應該放在不同的送交版次中。
+當新增檔案時，請選用容易以「`diff` 」檢視的檔案格式，如「`.svg` 」格式就勝過二進位影像。
+在送交版次訊息中，請記錄您所作的選擇與決策，如此未來其他人都能知道您當時的抉擇。
 
-If you are adding code, make sure you've added and updated the relevant documentation and tests before you submit your pull request.
-Make sure to write tests that show the behavior of the newly added or changed code.
+如果您是要新增程式碼，請確保您有新增與更新相關文件與測試項目，之後再提交您的拉取請求。
+請務必撰寫可以展示新增或修改後程式碼行為的測試項目。
 
-#### Applicable policy
+#### 適用政策
 
-Currently, the Standard for Public Code is not implementing any specific public policy.
+就目前而言，《公共程式標準》並非在執行任何特定的公共政策。
 
-#### Style
+#### 風格
 
-The Standard for Public Code aims to [use plain English](criteria/use-plain-english.md) and we have chosen American English for spelling.
-Text content should typically follow one line per sentence, with no line-wrap, in order to make `diff` output easier to view.
-However, we want to emphasize that it is more important that you make your contribution than worry about spelling and typography.
-We will help you get it right in our review process and we also have a separate quality check before [making a new release](docs/releasing.md).
+《公共程式標準》目標[使用白話的英語](criteria/use-plain-english.md)，而拼字採用美式英文。
+文字內容基本上以每句一行為原則，沒有文繞圖換行，來讓「`diff`」輸出更容易檢視。
+然而，我們想要強調更重要的是，您應該專注在貢獻內容上，而不是擔心拼字與排版。
+我們的審查流程會協助修正這一部分，也會另外再次檢查品質才[推出新發行版本](docs/releasing.md)。
 
-#### Standards to follow
+#### 遵守的標準
 
-These are the standards that the Standard for Public Code uses.
-Please make sure that your contributions are aligned with them so that they can be merged more easily.
+這些是《公共程式標準》所採用的標準。
+請確保您的貢獻內容也遵守這些標準，才會更容易合併。
 
-* [IETF RFC 2119](https://tools.ietf.org/html/rfc2119) - for requirement level keywords
-* [Web Content Accessibility Guidelines 2.1](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level) - for readability
+* [IETF RFC 2119](https://tools.ietf.org/html/rfc2119) - 要求等級關鍵字
+* [網頁內容可近用無障礙指引 2.1](https://www.w3.org/TR/WCAG21/#readable) - 易讀性
 
-### 2. Pull request
+### 2. 拉取請求
 
-When submitting the pull request, please accompany it with a description of the problem you are trying to solve and the issue number that this pull request fixes.
-It is preferred for each pull request to address a single issue where possible.
-In some cases a single set of changes may address multiple issues, in which case be sure to list all issue numbers fixed.
+當您提出拉取請求時，請隨附描述您想要解決的問題，以及該拉取請求所能修正的議題編號。
+以一個拉取請求處理單一項議題為佳。
+若一組變動能同時解決多項議題，則請列出所有能一併修正的議題編號。
 
-### 3. Improve
+### 3. 改善
 
-All contributions have to be reviewed by someone.
+所有貢獻都必須接受審查。
 
-It could be that your contribution can be merged immediately by a maintainer.
-However, usually, a new pull request needs some improvements before it can be merged.
-Other contributors (or helper robots) might have feedback.
-If this is the case the reviewing maintainer will help you improve your documentation and code.
+維護人員有時候可以立即合併您的貢獻內容。
+不過一般來說，新的拉取請求通常需要再經過改善後，才能夠合併。
+其他貢獻者（或是輔助用機器人）可能會提供意見回饋。
+若是如此，負責審查您貢獻內容的維護人員，將協助您改善文件與程式碼。
 
-If your documentation and code have passed human review, it is merged.
+一旦您的文件與程式碼通過人工審查，就會合併。
 
-### 4. Celebrate
+### 4. 慶祝
 
-Your ideas, documentation and code have become an integral part of this project.
-You are the open source hero we need!
+您的構想、文件與程式碼，已成為本專案的一部份。
+您就是我們需要的開放原始碼英雄！
 
-As a community we would like to include all contributors as [`AUTHORS`](AUTHORS.md).
-If your name is not already there, please open a pull request to add yourself.
-Each release will include a review to check if all new contributors have been mentioned.
-If you wish not to be included, please let us know explicitly.
+作為社群的一份子，將您的名字加到 [`AUTHORS`](AUTHORS.md) 檔案中，讓您所做的貢獻能銘記在本專案中。
+如果您的名字不在其中，誠摯歡迎您提出拉取請求。
+每次釋出版本前，我們也會再次確認是否有新的貢獻者需要加入。
+若您不希望被收錄，也請直接告知我們。
 
-## Languages and translations
+## 翻譯成其他語言
 
-The authoritative language of the Standard for Public Code is English.
+《公共程式標準》的官方語言為英文。
 
-Versions in other languages are provided by the community as best-effort.
-These courtesy translations may not be up to date with the English version, as missing translations do not block releases.
-We invite you to help maintain existing and add new [community translations of the Standard](https://github.com/standard-for-public-code/community-translations-standard).
+其他語言版本是由社群盡最大努力所提供。
+這些貢獻地翻譯內容可能無法同時隨著英文版本更新，最新版的準則就算沒有對應地翻譯成其他語言，也依舊會發行。
+邀請您幫助維護已有的[社群翻譯](https://github.com/publiccodenet/community-translations-standard)，或新增翻譯。
 
-## Releases
+## 發行版本
 
-We have dedicated documentation for creating [new releases](/docs/releasing.md) and [ordering printed standards](/docs/printing.md).
+我們有提供[發行新版本](/docs/releasing.md)，與[訂購印刷版標準](/docs/printing.md)的專用詳細文件。
 
-For more information on how to use and contribute to this project, please read the [`README`](README.md).
+若要進一步瞭解如何使用，以及協助貢獻本專案，請參閱 [`README `](README.md)。

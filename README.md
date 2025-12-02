@@ -1,65 +1,65 @@
-# Standard for Public Code
+# 公共程式標準
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 
-The Standard for Public Code gives public organizations a model for preparing open source solutions to enable collaborations with similar public organizations in other places.
-It includes guidance for policy makers, city administrators, developers and vendors.
+《公共程式標準》提供公家機關一套準備開放原始碼解決方案的模型，讓他們能與其他地方相似的公家機關協作。
+該標準包含給政策制定者、市行政官、開發人員與供應商的指引。
 
 ![version 0.8.1](assets/version-badge.svg)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-[![Standard commitment](assets/standard-for-public-code-commitment.svg)](#help-improve-this-standard)
+[![標準承諾](assets/standard-for-public-code-commitment.svg)](#help-improve-this-standard)
 
 [![pages-build-deployment](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/pages/pages-build-deployment)
-[![Test](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/test.yml/badge.svg)](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/test.yml)
+[![測試](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/test.yml/badge.svg)](https://github.com/standard-for-public-code/standard-for-public-code/actions/workflows/test.yml)
 
-The Standard for Public Code is in a draft format.
-We are preparing it for a version 1.0 release.
-Currently, we are testing it on a small number of codebases.
+《公共程式標準》目前為草稿階段。
+我們正在準備發行 1.0 版，
+目前仍在幾個程式基底中作測試。
 
-## Applying the Standard for Public Code to your codebase
+## 將《公共程式標準》套用到您的程式基底
 
-If you want to apply the Standard for Public Code to your codebase, just go ahead, it's an open standard and free for anyone to use.
-If you wish to advertise the codebase community's aspiration to meet the criteria of the Standard for Public Code, link the documentation of this commitment from the [standard-for-public-code-commitment badge](assets/standard-for-public-code-commitment.svg).
-To see how ready your codebase is, you can do a quick [eligibility self assessment](https://publiccodenet.github.io/assessment-eligibility) that will give you a rough idea of how much work you may need to do to meet all criteria.
+若您想要將《公共程式標準》套用您的程式基底，就請放心去做，因為它是人人都能自由採用的開放標準。
+如果您希望宣傳程式基底社群達成《公共程式標準》準則要求時的熱誠，請使用 [standard-for-public-code-commitment 徽章](assets/standard-for-public-code-commitment.svg)連結到這份承諾文件。
+若要瞭解您程式基底所達成的程度，可以做[自我資格評估](https://publiccodenet.github.io/assessment-eligibility)；它能幫助您大略瞭解，如果想要滿足所有準則，還需要下多少功夫。
 
-The standard *should* be mostly self-explanatory in how to apply it to your codebase.
-If anything in the standard is unclear, we encourage you to open an issue here so that we can help you and anyone else who feels the same as you.
-For inspiration, look at the [community built implementation guide](https://standard-for-public-code.github.io/community-implementation-guide-standard/) which contains examples and other tips.
+本標準 *應該* 足以自我解釋要如何套用到您的程式基底中。
+若標準中有任何不明確的地方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。
+如果需要一點靈感啟發，請參閱[社群製作的《實踐指引》](https://publiccodenet.github.io/community-implementation-guide-standard/)，其中包括範例與其他提示。
 
-## Request for contributions
+## 徵求貢獻
 
-We believe public policy and software should be inclusive, usable, open, legible, accountable, accessible and sustainable.
-This means we need a new way of designing, developing and procuring both the source code and policy documentation.
+我們相信公共政策與公共軟體，應該具備涵容、好用、開放、易懂、課責、近用、永續等特質。
+這代表我們需要一種新的方式，來設計、開發，以及付出心力育成原始碼和政策文件。
 
-This standard sets a quality level for codebases that meets the needs of public organizations, institutions and administrations as well as other critical infrastructural services.
+本標準為程式基底設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以及其他重大基礎設施服務的需求。
 
-The standard lives at [www.standardforpubliccode.org/](https://www.standardforpubliccode.org/).
-See [`index.md`](index.md) for an overview of all content.
+本標準放在線上：[standard.publiccode.net](https://standard.publiccode.net/)。
+請參閱[`index.md`](index.md) 查看整體內容概覽。
 
-## Help improve this standard
+## 幫忙改善這份標準
 
-We are looking for people like you to [contribute](CONTRIBUTING.md) to this project by suggesting improvements and helping develop it. 😊
-Get started by reading our [contributors guide](CONTRIBUTING.md).
-Since it is such a core document we will accept contributions when they add significant value.
-We've described how we govern the standard in the [governance statement](GOVERNANCE.md).
+我們正在尋找像您這樣的人，能對此專案做出[貢獻](CONTRIBUTING.md)，像是建議改善方向，以及協助開發等。😊
+若要開始，請先參閱我們的[貢獻者指引](CONTRIBUTING.md)。
+由於這是相當核心的文件，我們僅接受能帶來重大價值的貢獻。
+[治理方式聲明](GOVERNANCE.md)中有說明管理該標準的方式。
 
-Please note that this project is released with a [code of conduct](CODE_OF_CONDUCT.md).
-By participating in this project you agree to abide by its terms.
-Please be lovely to all other community members.
+請注意，本專案配合[行為守則](CODE_OF_CONDUCT.md)一同發行。
+如果要參加本專案，代表您同意遵守守則。
+請善待社群的所有其他成員。
 
-## Preview, build and deploy
+## 預覽、建置、部署
 
-The repository builds to a static site deployed at [www.standardforpubliccode.org/](https://www.standardforpubliccode.org/).
-It is built with [GitHub pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com/).
+儲存庫會建置一個靜態網站，並部署至 [standard.publiccode.net](https://standard.publiccode.net/)。
+網站採用 [GitHub 頁面](https://pages.github.com) 與 [Jekyll](https://jekyllrb.com/) 技術。
 
-The content is made to be built with [Jekyll](http://jekyllrb.com/), which means you will need ruby and ruby-bundler installed, for example:
+網站內容透過 [Jekyll](http://jekyllrb.com/) 技術建置。這代表您需要有安裝 ruby 與 ruby-bundler，例如：
 
 ```bash
 sudo apt-get install -y ruby ruby-bundler ruby-dev
 ```
 
-If `ruby` and `bundle` are installed, one can install the ruby dependencies:
+一旦安裝好 `ruby` 與 `bundle` 後，就可以執行 `bundle install`，接著再利用 `script/serve.sh` 命令稿轉譯呈現出網站成果。
 
 ```bash
 bundle config set --local path 'vendor/bundle'
@@ -72,22 +72,27 @@ After which the site can be rendered locally:
 script/serve.sh
 ```
 
-### Testing
+### 測試
 
-A variety of test scripts are included.
-The script `script/test-all.sh` wraps running of all local tests.
+本專案內含許多測試命令稿。
+其中 `script/test-all.sh` 命令稿則統包執行所有本機測試。
 
-See the scripts in the [script](https://github.com/standard-for-public-code/standard-for-public-code/tree/main/script) folder.
+請前往 [script](https://github.com/publiccodenet/standard/tree/main/script) 資料夾查看命令稿。
 
-### Printing the Standard for Public Code
+### 生成《公共程式標準》的 PDF 檔案
 
-See [printing.md](docs/printing.md).
+詳閱 [printing.md](docs/printing.md) 文件。
 
-## License
+## 授權
 
-© [The authors and contributors](AUTHORS.md)
+© [作者與貢獻者](AUTHORS.md)
 
-The standard is [licensed](LICENSE) under CC 0, which also applies to all illustrations and the documentation.
-This means anyone can do anything with it.
-If you contribute you also grant these rights to others.
-You can read more about how to help in the [contributing guide](CONTRIBUTING.md).
+本標準採用 CC0 公眾領域貢獻宣告[給予授權](LICENSE)，該授權範圍涵蓋所有插圖與文件。
+CC0 代表任何人都能任意使用這些內容。
+如果您是貢獻者，代表您也將這些權利賦予他人。
+若要進一步瞭解如何協助本專案，請參閱〈[貢獻指引](CONTRIBUTING.md)〉。
+
+## 軟體中文化
+
+本專案於 0.7.1 版前為數位部開放原始碼軟體中文化專案工作項目之一，由智新資通 與開放文化基金會，號召臺灣 L10N.tw 社群協助貢獻，推動歷程詳細參考： [Wiki](https://github.com/moda-gov-tw/publiccodenet.standard/wiki)。
+；0.8 版後貢獻為「我國各級機關數位工具及公共程式調查研析及業務推動服務案後續擴充」專案工作項目之一，由勤業眾信與開放文化基金會號召臺灣社群持續更新之。

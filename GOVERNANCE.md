@@ -3,9 +3,9 @@
 # SPDX-FileCopyrightText: 2024-2025 Standard for Public Code Authors, https://github.com/standard-for-public-code/standard-for-public-code/blob/develop/AUTHORS.md
 ---
 
-# Governance.md
+# 治理方式
 
-The Standard for Public Code is a community governed project.
+《公共程式標準》是由社群治理的專案。
 
 ## Principles
 

@@ -5,58 +5,58 @@ order: 10
 redirect_from:
   - criteria/understandable-english-first
 ---
-# Use plain English
+# 使用白話的英語
 
-English is the <i>de facto</i> language of collaboration in software development.
-However, some contexts require languages other than English.
-Therefore, a codebase can have a set of authoritative languages, including English.
+英語是軟體開發領域中的<i>實際</i> 協作語言。
+然而，有些情境需要使用英文以外的語言。
+因此，一個程式基底可以使用包含英文的一組語言，作為其官方語言。
 
-Public sector information needs to be accessible to all its constituents.
-Plain and simple language makes the [code](../glossary.md#code) and what it does easier to understand for a wider variety of people.
+公家機關資訊需要讓所有選民都能取用。
+簡單且白話的語言，能讓更多人能瞭解[程式碼](../glossary.md#code)與其功用。
 
-Translations further increase the possible reach of a [codebase](../glossary.md#codebase).
-Language that is easy to understand lowers the cost of creating and maintaining translations.
+翻譯可以讓更多人有機會認識[程式基底](../glossary.md#codebase)。
+用語越是簡單明暸，製作與維護翻譯的成本就越低。
 
-## Requirements
+## 需求規定
 
 * The set of authoritative languages for codebase documentation MUST be documented.
 * English MUST be one of the authoritative languages.
-* All codebase documentation MUST be up to date in all authoritative languages.
-* All [source code](../glossary.md#source-code) MUST be in English, except where [policy](../glossary.md#policy) is machine interpreted as code.
-* All bundled policy MUST be available, or have a summary, in all authoritative languages.
-* There SHOULD be no acronyms, abbreviations, puns or legal/language/domain specific terms in the codebase without an explanation preceding it or a link to an explanation.
-* Documentation SHOULD aim for a lower secondary education reading level, as recommended by the [Web Content Accessibility Guidelines 2](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level).
-* Providing additional courtesy translations of any code, documentation or tests is OPTIONAL.
+* 程式基底的所有文件在所選的官方語言，都「必須」同步更新。
+* 所有[原始碼](../glossary.md#source-code)都「必須」使用英語編寫，其中[政策](../glossary.md#policy)是由機器解讀當作程式碼的部分則除外。
+* 任何合捆的政策都「必須」要有官方語言的版本，或是官方語言版摘要。
+* 程式基底中「不應該」使用首字母縮字、縮寫、雙關語，或法律/非英語/行業特定詞彙；如果有的話，則需要在這些用語出現之前先行解釋，或是附上解釋該用語的網頁連結。
+* 根據《[網頁內容近用性無障礙指引 2](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level)》的建議，文件內容「應該」以國中識讀程度為主。
+* 「可選擇」是否提供任何程式碼、文件、測試等的免費翻譯版。
 
-## How to test
+## 測試方式
 
-* Confirm that codebase documents which languages are authoritative.
-* Confirm that codebase documentation is available in English.
-* Confirm that translations in authoritative languages have the same content.
-* Confirm that source code is in English, or confirm any non-English source code is policy or terms with preceding explanations.
-* Confirm all policy is fully translated or has a summary in all authoritative languages.
-* Check that no unexplained acronyms, abbreviations, puns or legal/language/domain specific terms are in the documentation.
-* Check the spelling, grammar and readability of the documentation.
+* 確認程式基底文件的官方語言。
+* 確認程式基底文件有英語版本。
+* 確認所有官方語言翻譯版本內容相同。
+* 確認原始碼為英語，確認任何非英語內容都是政策，或確認術語在其前方有先行說明等。
+* 確認所有政策都有官方語言的完整翻譯或摘要。
+* 確認文件當中，沒有任何未說明的首字母縮寫字、縮寫、雙關語，或法律/非英語/行業特定詞彙等。
+* 檢查文件的拼字、文法與易讀性等。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：需要的工作
 
-* Frequently test with other managers, developers and designers in the process if they understand what you are delivering and how you document it.
+* 在過程中經常與其他管理人員、開發人員與設計師測試，確認他們是否瞭解您們正要交付的程式碼與其文件的內容。
 
-## Managers: what you need to do
+## 管理人員：需要的工作
 
-* Establish which languages are authoritative for codebase documentation, citing relevant policy if applicable.
-* Ensure there is staffing or budget to provide translation for authoritative languages.
-* Try to limit the use of acronyms, abbreviations, puns or legal/language/domain specific terms in internal communications in and between teams and stakeholders. Add any such terms to a glossary and link to it from the places they are being used.
-* Be critical of documentation and descriptions in proposals and changes. If you don't understand something, others will probably also struggle with it.
+* 明確標示程式基底文件的官方語言，並且引用相關政策。
+* 確保有充足的人員或預算，將文件翻譯成各官方語言版。
+* 在團隊內部與利害關係人之間的內部溝通中，試著限制首字母縮寫字、縮寫、雙關語，或法律/非英語/行業特定詞彙的使用。如果有使用到的話，則將這些用語加入詞彙表，並且在使用這些詞彙的地方加上詞彙表連結。
+* 以批判性觀點看待提案與修改當中的文件與描述。如果有您看不懂的內容，很有可能其他人也同樣迷惘。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：需要的工作
 
-* Frequently test with policy makers and managers if they understand what you are delivering and how you document it.
-* Ask someone outside of your context if they understand the content (for example, a developer working on a different codebase).
+* 經常與政策制定者和管理人員測試，確認他們是否瞭解您們正要交付的程式碼與其文件的內容。
+* 詢問身處不同背景情境的人（像是另一個程式基底的開發人員）是否能瞭解內容。
 * If there are both required authoritative translations and "best effort" courtesy translations, then ensure that it is clearly documented which category each translation belongs to.
 
-## Further reading
+## 延伸閱讀
 
-* Meeting the [Web Content Accessibility Guidelines 2.2, Guideline 3.1.5 Reading Level](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level) by W3C makes text content readable and understandable.
-* The [European Union accessibility directive](https://ec.europa.eu/digital-single-market/en/web-accessibility) by the European Commission, is an example of regulation requiring high accessibility.
-* [Definition of plain language](https://www.plainlanguage.gov/about/definitions/) by United States General Services Administration.
+* 符合 W3C 全球資訊網協會《[網頁內容近用性無障礙指引 2.2、3.1.5 之可讀性](https://www.w3.org/WAI/WCAG22/quickref/?showtechniques=315#reading-level)》要求，撰寫的文字內容要容易閱讀與理解。
+*  歐盟委員會的《[歐盟無障礙環境命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)》，是高度要求無障礙環境的法規範例。
+* 美國總務署《[白話語言定義](https://www.plainlanguage.gov/about/definitions/)》。

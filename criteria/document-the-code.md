@@ -5,49 +5,49 @@ order: 9
 redirect_from:
   - criteria/documenting
 ---
-# Document the code
+# 程式碼要有文件
 
-Well documented [source code](../glossary.md#source-code) helps people to understand what the source code does and how to use it.
-Documentation is essential for people to start using the [codebase](../glossary.md#codebase).
-It also makes contributing to the codebase easier.
+文件記錄周全的[原始碼](../glossary.md#source-code)能幫助人們瞭解該原始碼的作用與使用方式。
+對開始使用[程式基底](../glossary.md#codebase)的人來說，程式基底文件是必須的。
+這也讓他們更容易對程式基底做出貢獻。
 
-## Requirements
+## 需求規定
 
-* All functionality MUST be described in a clear language. The audience is those that understand the purpose of the codebase.
-* The documentation MUST contain a description of how to install and run the software.
-* The documentation MUST contain examples demonstrating the key functionality.
-* The documentation SHOULD contain an overview that is easy to understand by a wide audience. The audience includes the [general public](../glossary.md#general-public) and journalists.
-* The documentation SHOULD contain a section describing how to install and run a standalone version of the software. This includes a test dataset if necessary.
-* The documentation SHOULD contain examples for all functionality.
-* The documentation SHOULD describe the key components or modules and their relationships. For example, this could be done as a high level architectural diagram.
-* There SHOULD be [continuous integration](../glossary.md#continuous-integration) tests for the quality of the documentation.
+* 程式基底的所有功能都「必須」以可清楚瞭解的用語描述，讓懂程式基底目的用途的人也能夠理解。
+* 程式基底文件「必須」說明如何安裝與執行軟體。
+* 程式基底文件「必須」為關鍵功能舉出範例。
+* 程式基底文件「應該」包含精要的概述，讓[一般大眾](../glossary.md#general-public)和記者等人都能清楚明白。
+* 程式基底文件「應該」有一部分用來說明，如何安裝與執行軟體的單機版；如果有必要，也應該包含測試資料集。
+* 程式基底文件「應該」包含所有功能的範例。
+* 程式碼文件「應該」描述程式基底的主要組件或模組，以及其彼此之間的關係，例如以高層架構圖表示。
+* 「應該」要有針對文件品質的[持續整合](../glossary.md#continuous-integration)測試。
 
-## How to test
+## 測試方式
 
-* Confirm that other stakeholders find the documentation clear and understandable. Stakeholders should include professionals from other public organizations and the general public.
-* Confirm that the documentation describes how to install and run the source code.
-* Confirm that the documentation includes examples of the key functionality.
-* Check with members of the general public and journalists if they can understand the overview.
-* Check that the instructions for how to install and run a standalone version of the source code result in a running system.
-* Check that all functionality documented contains an example.
-* Check that the documentation includes a high level architectural diagram or similar.
-* Check that documentation quality is part of integration testing. For example, test that documentation is generated correctly, and test links and images.
+* 確認文件內容能讓其他利害關係人都可以清楚明白。利害關係人包括其他公家機關的專業人士，以及一般大眾。
+* 確認文件有說明如何安裝與執行原始碼。
+* 確認文件有包含主要功能的範例。
+* 向一般大眾的成員以及記者確認，他們是否能明白文件當中的概述。
+* 檢查單機版原始碼的安裝與執行的步驟說明，確認能順利執行系統。
+* 檢查文件中列舉的所有功能都包含範例。
+* 檢查文件中是否包含高層架構圖，或類似的組件關係圖表。
+* 確認整合測試有包含到程式碼文件品質，例如確認生成的文件是否正確，並檢查連結與圖片等。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：需要的工作
 
-* Check in regularly to understand how the non-policy code in the codebase has changed.
-* Give feedback on how to make non-policy documentation more clear.
+* 定期查看程式基底中非政策程式碼的變動情況。
+* 針對如何讓非政策文件更清楚易懂提供意見回饋。
 
-## Managers: what you need to do
+## 管理人員：需要的工作
 
-* Try to use the codebase so that you can provide feedback. This can improve how the [policy](../glossary.md#policy) and source code are documented. For example, is the documentation good enough to persuade a manager at another public organization to use this codebase?
-* Make sure you understand both the policy and source code as well as the documentation.
+* 嘗試使用程式基底，並提供您的意見回饋來讓[政策](../glossary.md#policy) 與原始碼文件改善得更加清楚。舉例來說，可以自問目前的文件是否足以說服另一個公家機關的管理人員使用這套程式基底？
+* 確保您同時瞭解政策、原始碼以及文件內容。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：需要的工作
 
-* Check in regularly to understand how the non-source code in the codebase has changed.
-* Give feedback on how to make non-source documentation more clear.
+* 定期查看程式基底中非原始碼部分的變動情況。
+* 針對如何讓非原始碼文件更清楚易懂提供意見回饋。
 
-## Further reading
+## 延伸閱讀
 
-* [Documentation guide](https://www.writethedocs.org/guide/) by Write the Docs.
+* Write the Docs《[文件指南](https://www.writethedocs.org/guide/)》。

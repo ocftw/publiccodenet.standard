@@ -4,170 +4,170 @@
 redirect_from:
   - introduction
 ---
-# Foreword
+# 序文
 
-The Standard for Public Code is a set of criteria that support public organizations in developing and maintaining software and policy together.
+《公共程式標準》提供一套準則規範，支持公家機關一同開發與維護軟體及政策。
 
-Anyone developing public-purpose software or policy can use this standard to work towards higher quality public services that are more cost effective, with less risk and more control.
+任何想開發具有公眾用途的軟體或政策的人，可以利用本標準來提升公共服務品質，使其更具成本效益、風險更低，還能對系統更有掌控權。
 
-This foreword introduces the term public code and explains why this is important.
+本序文在介紹何謂「公共程式」以及解說其重要性。
 
-## Definition of public code
+## 公共程式定義
 
-Public code is both computer source code (such as software and algorithms) and public policy executed in a public context, by humans or machines.
-It encompasses the software built to operate with and as public infrastructure, along with the arrangements for its production.
-Public code is explicitly distinct from regular software because it operates under fundamentally different circumstances and expectations.
+公共程式，英文為 Public Code，是指人類或機器在公共情境下，所執行的電腦原始碼（像是軟體與演算法）與公共政策。
+公共程式的範疇，涵蓋搭配公共基礎建設一同作業的軟體、作為公共基礎建設運作而建置的軟體，以及產生公共程式的過程安排等。
+公共程式與一般軟體有明顯區別，因為其作業的環境與期待全然不同。
 
-## Reasons for public code
+## 採用公共程式的原因
 
-There are many reasons for why public code is relevant now.
+公共程式現在如此重要，背後有幾個原因。
 
-### Software code == legal code
+### 軟體程式碼 == 法律條文
 
-Software is public infrastructure.
+軟體是公共基礎建設。
 
-In the 21st century, software can be considered vital public infrastructure.
-It is increasingly not just the expression of existing policy but the originator of new policy, for example where algorithms decide which districts need extra social services or policing.
+在 21 世紀，軟體可被視為重要的公共基礎建設。
+軟體越來越常被用於實現既有政策，甚至成為新政策的制定來源。舉例來說，演算法可以決定哪些地區需要額外的社會服務或警力等。
 
-Software mechanics, algorithms and data collection have become key elements in the execution of public policies.
-Computer code now executes policies that have been codified in legal code through democratic procedures.
-Both forms of code set conditions for society to function according to democratically set public values, the latter executed by humans, the former by machines.
-In other words, software code has increasingly started to equal legal code.
+在公共政策的執行上，軟體運作機制、演算法與資料蒐集等，已成為關鍵要素。
+今日的電腦程式碼，正執行著透過民主程序制定的法規政策。
+程式碼與政策這兩種形式的程式，都根據民主程序而確立的公共價值，設立出社會的運作環境；前者由機器執行，後者則是由人類執行。
+換句話說，軟體程式碼，已經越來越實質趨近於法律條文的地位。
 
-Software should therefore be subject to the principles of democratic governance.
+因此軟體也應該接受民主治理原則的約束。
 
-### Traditional public software procurement
+### 傳統的公共軟體採購
 
-Current public software production methods have not served public service delivery very well.
+目前公共軟體的生產模式，在交付公共服務上的效率並不高。
 
-In the last decade, public organizations that purchased complete software solutions have sometimes been surprised to discover that they:
+過去近十年來，購置完整軟體解決方案的公家機關，有時甚至會很訝異地發現：
 
-* can’t change their software to reflect changing policy or take advantage of new technology
-* don’t have access to their data as it's locked into proprietary systems
-* are asked to pay ever increasing license fees
+* 他們無法修改軟體來反映政策的變動，或是改變軟體來利用新科技
+* 他們的資料都套牢在專有系統中，無法取用
+* 他們所需繳交的授權費變得越來越貴
 
-### Technological sovereignty and democratic accountability
+### 技術自主權與民主課責
 
-Public institutions, civil servants and residents deserve better.
+公家機關、公務員與居民都值得更好的。
 
-We believe the software that runs our society can no longer be a black box, controlled by outside companies that keep the underlying logic on which their software operates hidden in proprietary codebases.
-Instead, governments and the people they serve need technological sovereignty.
-This allows them to set and control the functioning of public software, just like they are able to set and control policy that is legally formulated in laws.
-Citizens and civil society actors need this software to be transparent and accountable.
+我們相信支持社會運作的軟體，再也不能是黑箱，任由外部公司依隱藏在專有程式基底之下的秘密邏輯作控制。
+反過來說，政府，以及政府所要服務的人民，需要掌控技術自主權。
+技術自主讓他們能主導設定與控制公共軟體的運作，正如同他們能依法制定與調整政策一樣。
+人民與公民社會的參與者，都需要這類軟體能夠透明，且可以課責。
 
-The design of software as essential civic infrastructure should honor digital citizens’ rights.
+作為必要公民基礎建設的軟體，其設計應該尊重公民的數位權利。
 
-### Designing truly public software
+### 設計真正的公共軟體
 
-Public code is at the core of modern public institutions, shapes the work of civil servants and affects the lives of almost all residents.
+公共程式是現代公家機構的核心，型塑了公務員的工作樣態，並且影響了幾乎所有居民的生活。
 
-Public software must therefore be:
+因此公共軟體必須：
 
-* transparent
-* accountable
-* understandable for its constituents
+* 透明
+* 可課責
+* 讓選民能夠理解
 
-It must reflect the values of the society it serves, for example by being inclusive and non-discriminatory.
+必須能反映其所服務的社會價值觀，像是涵容與不歧視。
 
-Most proprietary software systems currently used by public organizations do not meet these requirements.
-Public code does.
+目前公家機關使用的大多數專有軟體系統，都不符合這些要求；
+而公共程式能夠做到。
 
-### Values of public code
+### 公共程式的價值
 
-We consider public code to have these core values:
+我們認為公共程式應具有下列核心價值：
 
-* Inclusive
-* Usable
-* Open
-* Legible
-* Accountable
-* Accessible
-* Sustainable
+* 涵容
+* 好用
+* 開放
+* 易懂
+* 課責
+* 近用
+* 永續
 
-## How public code works
+## 公共程式運作方式
 
-Public code is open source software meant for fulfilling the essential role of public organizations.
-Through use, other administrations contribute back to the software, so that its development and maintenance become truly collaborative.
+公共程式是旨在協助公家機關，履行其必要職責時所採用的開放原始碼軟體。
+透過使用，其他行政單位也能為軟體做出貢獻，因此公共程式的開發與維護，可說是真正互相協作的成果。
 
-Being open unlocks many other things.
+開放的精神能開創許多可能性。
 
-Local responsibility and democratic accountability are ensured when a public organization implements and maintains their own public code.
-By being open and with a broader contributor base, the software is more secure as it benefits from many eyes spotting potential flaws.
-Many contributors share the maintenance work to keep it functional and modern, which improves long-term maintainability.
-The shared workload is more sustainable now and in the future.
-Its openness makes both the code and its data more easily adaptable in the future.
-The code will be easier to retool, repurpose or retire.
-This all results in lower risk public infrastructure.
+公家機關在執行與維護其自身的公共程式時，就是在確保能為地方負責，並履行民主課責。
+開放且貢獻者眾多的軟體，得利於有許多人在看，更容易發現潛在缺陷，因此安全性會更高。
+許多貢獻者會分攤維護工作，讓公共程式能持續運作與更新，減少未來技術債的可能。
+因為能有多人分攤維護工作，使得現在與未來都會更加永續。
+而公共程式的開放性，代表其程式碼與資料，在未來也更容易改寫與調整。
+程式碼也更容易重新利用、重新調整目標，或甚至淘汰。
+這一切特性都讓公共基礎建設可能遭遇的風險降到更低。
 
-This pooling of resources lets public administrations give extra attention to how to customize the software so it works best in each local context, creating better user experiences for their end users (residents or citizens).
+這種將資源集中的作法，能讓公共行政單位可以有額外心力關注如何客製化軟體，來使軟體最適合當地情境的需求，為終端使用者（居民或市民）創造更佳的使用體驗。
 
-### Economics of public code
+### 公共程式的經濟效應
 
-Public code offers a better economic model for public organizations as well as for commercial companies.
-It's an alternative to traditional software procurement which increases local control and economic opportunity.
+公共程式為公家機關以及商業公司，提供更好的經濟模型。
+公共程式作為替代傳統軟體採購的方案，更能提升當地的掌控權並促進經濟機會。
 
-Designed from the start to be open, adaptable and with data portability, it can be developed by in-house staff or trusted vendors.
-Because the code is open, the public administration can change vendors if they need to.
-Open code increases opportunities for public learning and scrutiny, allowing the public administration to procure smaller contracts.
-Smaller procurements are easier for local small and medium enterprises to bid upon.
-Public administrations can use their own software purchasing to stimulate innovation and competition in their local economy.
+公共程式從設計之初，就是要開放、適應力強、資料可攜，能夠由內部員工或信任的供應商來開發。
+由於原始碼開放，公共行政單位在有需要時可以更換供應商。
+開放原始碼讓社會大眾更有機會瞭解與監督公共程式，使公共行政單位得以採購小規模的合約，
+而地方性的中小企業就更容易參與這些小型採購案的競標。
+如此一來，公共行政單位就可以透過他們所需的軟體採購案，刺激當地經濟的創新與競爭。
 
-This can be seen as investment leading to future economic growth.
-More vendors will be necessary due to growing technology demand.
+這可視為對未來經濟成長的投資。
+隨著科技需求成長，也將需要更多供應商。
 
-### Procuring public code
+### 購置公共程式
 
-Public code can be used and developed by permanent in-house development teams, contractors or outsourced suppliers.
-Vendors to public organizations can include public code in their bids for contracts.
+公共程式可由常駐的內部研發團隊、承包商或外包供應商開發。
+公家機關的供應商，在投標時可以在標案中納入公共程式。
 
-To use existing public code, you need to specify in your budget and project design that your new solution will use that codebase.
-To encourage an innovative approach to adapting the public code to your context, you could describe the service or outcome in your contract.
+若要使用既有的公共程式，您將需要在預算以及專案設計中，明確指出新的解決方案將會使用該程式基底。
+為了鼓勵創新，將公共程式依據您的情境背景作調整，您可在合約中描述說明服務內容或預期成果。
 
-## The goals for the Standard for Public Code
+## 《公共程式標準》目標
 
-This Standard supports developers, designers, managers and public policy makers to:
+本標準在於支持開發人員、設計師、管理人員、公共政策制定者：
 
-* develop high quality software and policy for better public service delivery
-* develop codebases that can be reused across contexts and collaboratively maintained
-* reduce technical debt and project failure rate
-* have more granular control over, and ability to make decisions about, their IT systems
-* improve vendor relationships with a better economic model
+* 開發出高品質的軟體與政策，來改善公共服務的交付
+* 開發出能在各種情境下重複使用，且以協作方式維護的程式基底
+* 減少技術債與專案失敗率
+* 更能精細控制其 IT 系統粒度，並做出系統相關決策
+* 以更好的經濟模型改善供應商關係
 
-Potential users of codebases tested against the Standard for Public Code can expect them to be highly reusable, easily maintainable and of high quality.
+如果有潛在使用者想採用經由《公共程式標準》測試過的程式基底，便可以預期這些程式基底具有方便重複利用、容易維護、高品質的特性。
 
-The Standard for Public Code does this by:
+《公共程式標準》能有此效果是基於：
 
-* setting out a common terminology for public code development
-* establishing measures to help develop high quality public code
-* providing guidance on how to fulfill its criteria and operationalize compliance
+* 為公共程式開發訂立通用術語
+* 制定措施協助高品質公共程式的開發
+* 提出該如何符合準則並實作遵循的指引
 
-The Standard for Public Code is meant to be time and technology independent.
+《公共程式標準》設計精神就是要跨越時間與科技，不受其限制。
 
-### Who this is for
+### 適用對象
 
-The Standard for Public Code is for the people who create and reuse public code:
+《公共程式標準》適用於開發與重複使用公共程式的人：
 
-* public policy makers
-* business and project managers
-* developers and designers
+* 公共政策制定者
+* 業務與專案經理
+* 開發人員與設計師
 
-These people work at:
+在以下單位服務的人：
 
-* institutions, organizations and administrations in the public sector
-* consultancies and vendors of information technology and policy services to public organizations
+* 社會機構、公家機關的組織與行政單位
+* 公家機關在資訊科技與政策服務上的顧問與供應商
 
-It is not aimed at public organizations' end users (residents or citizens), journalists or academics.
+適用對象不含公家機關的終端使用者（居民或市民）、記者或學者等。
 
-## Further reading
+## 延伸閱讀
 
-* ["Modernising Public Infrastructure with Free Software" white paper](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pdf) by the Free Software Foundation Europe.
+* 歐洲自由軟體基金會所發表的[《透過自由軟體實現公共基礎設施現代化》白皮書](https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.pdf) 》。
 
-### Videos on public code
+### 探討公共程式的影片
 
-* [Collaborative Code is the Future of Cities @ DecidimFest 2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o). Talk by Ben Cerveny on the background behind the Foundation for Public Code.
-* [Public Money? Public Code! - Panel @ Nextcloud Conference 2019](https://youtube.com/watch?v=QHFkD4xfd6c). Touches on topics like procurement, law and more.
+* [「程式協作是城市的未來」@ DecidimFest 2019](https://www.youtube.com/watch?v=cnJtnZ9Cx1o)。主講人 Ben Cerveny，講述 Foundation for Public Code 的背景。
+* [ 「用公共的納稅錢？做公共的程式吧！」專題討論 @ Nextcloud 大會 2019](https://youtube.com/watch?v=QHFkD4xfd6c)。討論採購、法律等主題。
 
-## Get involved
+## 參與我們
 
-This standard is a living document.
-[Read our contributor guide](/CONTRIBUTING.md) to learn how you can make it better.
+本標準是持續成長的文件。
+[請讀我們的〈貢獻者指引〉](/CONTRIBUTING.md)，瞭解您可以怎麼做來讓本標準變得更好。

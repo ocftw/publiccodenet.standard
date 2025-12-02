@@ -6,46 +6,46 @@ redirect_from:
     - criteria/advertise-maturity
     - criteria/document-maturity
 ---
-# Document codebase maturity
+# 記錄程式基底成熟度
 
-Clearly signalling a [codebase](../glossary.md#codebase)'s maturity helps others decide whether to use and contribute to it.
-A codebase version's maturity includes the maturity of its dependencies.
-Understanding how a codebase has evolved is key to understanding the codebase and how to contribute to it.
+清楚標示[程式基底](../glossary.md#codebase)的成熟度，有助於他人決定是否要使用，或為該程式基底做出貢獻。
+程式基底版本的成熟度，包含其依賴項。
+目的成熟度。瞭解程式基底演進到什麼程度，是理解該程式基底並知道如何做出貢獻的關鍵。
 
-## Requirements
+## 需求規定
 
-* The codebase MUST be versioned.
-* The codebase MUST prominently document whether or not there are versions of the codebase that are ready to use.
-* Codebase versions that are ready to use MUST only depend on versions of other codebases that are also ready to use.
-* The codebase SHOULD contain a summary of changes from version to version, for example in the `RELEASE_NOTES`.
-* The method for assigning version identifiers SHOULD be documented.
-* It is OPTIONAL to use semantic versioning.
+* 程式基底「必須」註明版本編號。
+* 程式基底「必須」明確以文件記錄，是否有已經準備好可供使用的版本。
+* 準備好可供使用的程式基底版本，「必須」只能依賴其他也已經準備好可供使用的程式基底版本。
+* 程式基底「應該」包含每次版本的變動紀錄，像是以「`CHANGELOG`」日誌格式檔記錄。
+* 「應該」要以文件記錄分配版本識別碼的方法。
+* 「可選擇」是否採用語意化版本控制編號。
 
-## How to test
+## 測試方式
 
-* Confirm that the codebase has a strategy for versioning which is documented.
-* Confirm that it is obvious to policy makers, managers, developers and designers whether the codebase has versions that are ready to use.
-* Confirm that ready to use versions of the codebase do not depend on any versions of other codebases that are not ready to use.
-* Check that the versioning scheme of the codebase is documented and followed.
-* Check that there is a summary of changes.
+* 確認程式基底有版本編號策略，且有文件記載該策略。
+* 確認政策制定者、管理人員、開發人員與設計師等，都能清楚知道程式基底是否有準備好可供使用的版本。
+* 確認準備好可供使用的程式基底版本，並不依賴任何尚未準備好可供使用的其他程式基底的版本。
+* 確認有文件記錄程式基底的版本編號方法，並且確實遵守。
+* 確認是否有版本的變動紀錄。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：需要的工作
 
-* When developing [policy](../glossary.md#policy), understand that any [source code](../glossary.md#source-code) developed needs to be tested and improved before it can be put into service.
-* Consider versioning policy changes, especially when they trigger new versions of the source code.
+* 制定[政策](../glossary.md#policy)時，請記住任何開發出來的[原始碼](../glossary.md#source-code)都必須先經過測試與改善，才能夠投入服務。
+* 考慮將政策的變動註明版本編號，尤其是因而觸發新版本原始碼開發的情況。
 
-## Managers: what you need to do
+## 管理人員：需要的工作
 
-* Make sure that services only rely on versions of codebases of equal or greater maturity than the service. For example, don't use a beta version of a codebase in a production service.
+* 要確認服務依賴的程式基底版本成熟度，等同或高於該服務本身。舉例來說，正式上線的服務不要使用 beta 公測版程式基底。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：需要的工作
 
-* Make sure that the codebase versioning approach is followed for all releases.
+* 確認所有發行版，都有遵守程式基底的版本控制編號作法。
 
-## Further reading
+## 延伸閱讀
 
-* [Semantic Versioning Specification](https://semver.org/) used by many codebases to label versions.
-* [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle)
-* [The Development Status key](https://yml.publiccode.tools/schema.core.html#key-developmentstatus) in the publiccode.yml standard.
-* [Service Design and Delivery Process](https://www.digital.gov.au/policy/digital-experience/toolkit/service-design-and-delivery-process) by the Australian Digital Transformation Agency.
-* [Service Manual on Agile Delivery](https://www.gov.uk/service-manual/agile-delivery) by the UK Government Digital Service.
+* 許多程式基底使用「[語意化版本編號規範](https://semver.org/)」來標示版本。
+* [軟體發行生命週期](https://en.wikipedia.org/wiki/Software_release_life_cycle)
+* publiccode.yml 標準中的[Development Status（開發狀態）關鍵](https://yml.publiccode.tools/schema.core.html#key-developmentstatus)
+* 澳洲數位轉型局《[服務設計與交付流程](https://www.digital.gov.au/policy/digital-experience/toolkit/service-design-and-delivery-process)》。
+* 英國政府數位服務團《[敏捷交付服務手冊](https://www.gov.uk/service-manual/agile-delivery)》。
