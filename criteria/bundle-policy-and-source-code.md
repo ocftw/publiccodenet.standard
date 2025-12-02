@@ -35,7 +35,7 @@ redirect_from:
 * 政策內容請使用明確且機器可讀的格式，像是[物件管理群體](https://www.omg.org/spec/)所發表的格式。
 * 追蹤政策時，請使用與追蹤原始碼[相同的版本控制](maintain-version-control.md)與文件。
 * 定期檢查，瞭解程式基底中的原始碼如何變動，以及是否仍然符合[政策意圖](document-codebase-objectives.md)。
-* 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [歐盟一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承諾等。
+* 納入會影響社會群體、程式基底與開發目標的相關政策，包含 [GDPR 一般資料保護規則](https://eur-lex.europa.eu/eli/reg/2016/679/oj)或是[歐盟網頁無障礙命令](https://ec.europa.eu/digital-single-market/en/web-accessibility)等此類法律義務，或者是人權政策，例如公家機關對機會平等的承諾等。
 
 ## 管理人員：需要的工作
 
