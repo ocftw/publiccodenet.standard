@@ -19,6 +19,7 @@ April 28th 2025: 🧑‍🤝‍🧑 The 18th draft changes to community governan
 * Removed optional requirement in Document the code about tempting examples.
 * Criteria texts have been slightly simplified, to be more easily understood, with less technical terms.
 * The repository README has received documentation improvements.
+* The CHANGELOG was renamed to RELEASE_NOTES.
 * Improvements to release guidelines.
 * Made minor changes to text for clarity and consistency.
 
