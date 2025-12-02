@@ -6,68 +6,65 @@ redirect_from:
   - criteria/findability
 ---
 
-# 程式基底可查詢得到
+# Make the codebase findable
 
-一旦[程式基底](../glossary.md#codebase)越容易被發現，更多的潛在協作者也就找得到它。不能只是發表個程式基底，然後就盼望他人找得到這套程式基
-底，更需要主動積極。
+The more findable a [codebase](../glossary.md#codebase) is, the more potential new collaborators will find it.
+Just publishing a codebase and hoping it is found does not work, instead proactiveness is needed.
 
-有中介資料說明檔的話，會讓程式基底更容易被發現。良好且包含永久唯一識別碼的中介資料，例如寫成 Wikidata 維基數據條目，或是放到 FSF 自由軟體基金會的軟體
-目錄列表之中（使程式基底成為語意網路中的一部份），他人就能更容易透過第三方工具參考、引用、辨別、發現程式基底。
+A metadata description file increases discoverability.
+Well-written metadata containing a unique and persistent identifier, such as a Wikidata item or FSF software directory listing (thus being part of the semantic web), makes the codebase easier for people to refer, cite, disambiguate and discover through third party tools.
 
-## 需求規定
+## Requirements
 
-* 程式基底名稱「應該」要能描述說明其用途，且不包含任何首字母縮寫字、縮寫、雙關語，或組織單位品牌名稱或抬頭等。
-* 程式基底說明「應該」要簡短，幫助他人瞭解程式基底的目的與作用。
-* 維護人員「應該」將程式基底提交至相關的軟體目錄上。
-* 程式基底「應該」要架設網站，內容中以程式基底各類潛在使用者（技術人員、政策專家、管理人員等）偏好的業內用語，描述程式基底所能解決的問題。
-* 在搜尋引擎查找程式基底名稱時，「應該」能搜尋得到程式基底。
-* 在使用搜尋引擎時，如果以自然語言描述程式基底所能解決的問題，「應該」能搜尋得到程式基底。
-* 程式基底「應該」具備永久唯一識別碼，而且該項條目要提及主要貢獻者、[儲存庫](../glossary.md#repository)、位置、網站等。
-* 程式基底「應該」包含機器可讀的中介資料說明，例如採用
-[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml)格式的檔案。
-* 「可選擇」是否為程式基底設置專用的網域名稱。
-* 「可選擇」是否在社群舉辦的會議中定期進行簡報。
+* The name of the codebase SHOULD be descriptive and free from acronyms, abbreviations, puns or organizational branding.
+* The codebase SHOULD have a short description that helps someone understand what the codebase is for or what it does.
+* Maintainers SHOULD submit the codebase to relevant software catalogs.
+* The codebase SHOULD have a website which describes the problem the codebase solves using the preferred jargon of different potential users of the codebase (including technologists, policy experts and managers).
+* The codebase SHOULD be findable using a search engine by codebase name.
+* The codebase SHOULD be findable using a search engine by describing the problem it solves in natural language.
+* The codebase SHOULD have a unique and persistent identifier where the entry mentions the major contributors, [repository](../glossary.md#repository) location and website.
+* The codebase SHOULD include a machine-readable metadata description, for example in a [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) file.
+* A dedicated domain name for the codebase is OPTIONAL.
+* Regular presentations at conferences by the community are OPTIONAL.
 
-## 測試方式
+## How to test
 
-* 檢查程式基底名稱是否描述說明其用途，且不包含雙關語。
-* 檢查程式基底名稱是否不包含任何首字母縮寫字或縮寫，或是其首字母縮寫字或縮寫比完整名稱更熟為人知。
-* 檢查程式基底是否不包含組織單位品牌名稱或抬頭等，除非該組織單位也是程式基底社群成員。
-* 檢查程式基底儲存庫是否包含程式基底的簡短描述。
-* 檢查程式基底有刊登在相關軟體型錄上。
-* 檢查程式基底的網站有描述程式基底能夠解決的問題。
-* 檢查以程式基底名稱來作搜尋時，有超過一個的常用主流搜尋引擎，都有將程式基底列在搜尋結果中。
-* 檢查以自然語言來作搜尋，例如使用程式基底的簡短描述時，有超過一個的常用主流搜尋引擎，都將程式基底放在搜尋結果中。
-* 檢查永久唯一識別碼條目有提及主要貢獻者。
-* 檢查永久唯一識別碼條目中有包含儲存庫位置。
-* 檢查永久唯一識別碼條目有列出程式基底網站。
-* 檢查中介資料說明檔是機器可讀的格式。
+* Check that the codebase name is descriptive and free of puns.
+* Check that the codebase name is free of acronyms and abbreviations or that the acronyms or abbreviations in the name are more universally known than the longer forms.
+* Check that the codebase name is free of organizational branding, unless that organization is of the codebase community itself.
+* Check that the codebase repository has a short description of the codebase.
+* Check for the codebase listing in relevant software catalogs.
+* Check for a codebase website which describes the problem the codebase solves.
+* Check that the codebase appears in the results on more than one major search engine when searching by the codebase name.
+* Check that the codebase appears in the results on more than one major search engine when searching by using natural language, for instance, using the short description.
+* Check unique and persistent identifier entries for mention of the major contributors.
+* Check unique and persistent identifier entries for the repository location.
+* Check unique and persistent identifier entries for the codebase website.
+* Check for a machine-readable metadata description file.
 
-## 公共政策制定者：需要的工作
+## Public policy makers: what you need to do
 
-* 貢獻一段說明此程式基底作用的政策領域，或所處理問題的描述。
-* 請那些對程式基底不熟悉且不同領域背景的同事，來測試您的問題描述。
-* 在相關會議上作簡報，介紹程式基底如何執行[政策](../glossary.md#policy)。
+* Contribute a description of the policy area or problem this codebase acts on or operates.
+* Test your problem description with peers outside of your context who aren't familiar with the codebase.
+* Present on how the codebase implements the [policy](../glossary.md#policy) at relevant conferences.
 
-## 管理人員：需要的工作
+## Managers: what you need to do
 
-* 在決定專案名稱之前，先搜尋過商標資料庫，以避免名稱造成混淆或侵權的問題。
-* 在引用到程式基底的地方，都使用簡短描述，例如放到社交媒體帳號中的說明。
-* 為團隊編列內容設計與實作 SEO 搜尋引擎最佳化技能的預算。
-* 確保專案參與人員出席相關會議，或作簡報介紹。
+* Search trademark databases to avoid confusion or infringement before deciding the name.
+* Use the short description wherever the codebase is referenced, for instance, as social media account descriptions.
+* Budget for content design and Search Engine Optimization skills in the team.
+* Make sure people involved in the project present at relevant conferences.
 
-## 開發人員與設計師：需要的工作
+## Developers and designers: what you need to do
 
-* 實作搜尋引擎最佳化，例如加入[網站地圖](https://www.sitemaps.org/protocol.html)。
-* 在引用到程式基底的地方，都使用簡短描述，例如放到儲存庫中的說明。
-* 請那些對程式基底不熟悉且不同領域背景的同事，來測試您的問題描述。
-* 推薦適合出席或作簡報介紹的會議，並且在這些會議中出席或作簡報。
+* Search engine optimization, for instance adding a [sitemap](https://www.sitemaps.org/protocol.html).
+* Use the short description wherever the codebase is referenced, for instance, as the repository description.
+* Test your problem description with peers outside of your context who aren't familiar with the codebase.
+* Suggest conferences to present at and present at them.
 
 <p style="page-break-after: always;"></p>
+## Further reading
 
-## 延伸閱讀
-
-* Wikidata 維基數據社群《[維基數據簡介](https://www.wikidata.org/wiki/Wikidata:Introduction)》。
-* FSF 自由軟體基金會《[FSF 軟體目錄列表](https://directory.fsf.org/wiki/Main_Page)》。
-* GO FAIR 國際支援與合作辦公室所撰寫的《[FAIR 科學資料管理與監督指導原則](https://www.go-fair.org/fair-principles/)》，提供一份滿好的特性清單，解說哪些特性會讓資料（或中介資料）更容易讓
-機器採取行動（也因此更容易被找到）。其中的部分特性可直接套用到程式基底上，而其他無法直接套用的，我們還需要再研究程式基底與其對應的特性要怎麼處理。
+* [Introduction to Wikidata](https://www.wikidata.org/wiki/Wikidata:Introduction) by the Wikidata community.
+* [FSF software directory listing](https://directory.fsf.org/wiki/Main_Page) by the Free Software Foundation.
+* The [FAIR Guiding Principles for scientific data management and stewardship](https://www.go-fair.org/fair-principles/) by the GO FAIR International Support and Coordination Office provide a nice list of attributes that make (meta)data more machine actionable (and hence more findable). Some of these apply directly to codebases, while others may provoke exploration into what the codebase equivalent would be.

@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 0
 ---
-# 準則
+# Criteria
 
 {% assign sorted = site.pages | sort:"order" %}
 

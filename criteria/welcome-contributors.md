@@ -5,58 +5,58 @@ order: 4
 redirect_from:
   - criteria/open-to-contributions
 ---
+# Welcome contributors
 
-# 歡迎貢獻者
+The atmosphere in a [codebase](../glossary.md#codebase) community helps users decide to use one codebase over another.
+Welcoming anyone as a contributor enables the community to grow and sustain itself over time.
+A community where contributors have clear ways to influence codebase and community goals and progress is less likely to split and end up in diverging communities.
+Newcomers need to understand and trust the codebase community’s governance.
 
-[程式基底](../glossary.md#codebase)社群的氛圍，會影響使用者選擇所要使用的程式基底。歡迎任何人成為貢獻者的社群，才能夠不斷茁壯並且持續自我
-運作。若貢獻者有明確的方法可以影響程式基底、社群目標與進展，則該社群分裂成分歧的社群的機率也較低。新參與者需要瞭解並信任程式基底社群的治理方式。
+## Requirements
 
-## 需求規定
+* The codebase MUST allow anyone to submit suggestions for changes to the codebase.
+* The codebase MUST include contribution guidelines explaining what kinds of contributions are welcome and how contributors can get involved, for example in a `CONTRIBUTING` file.
+* The codebase MUST document the governance of the codebase, contributions and its community, for example in a `GOVERNANCE` file.
+* The contribution guidelines SHOULD document who is expected to cover the costs of reviewing contributions.
+* The codebase SHOULD advertise the committed engagement of involved organizations in the development and maintenance.
+* The codebase SHOULD have a publicly available roadmap.
+* The codebase SHOULD publish codebase activity statistics.
+* Including a code of conduct for contributors in the codebase is OPTIONAL.
 
-* 程式基底必須「允許」任何人對程式基底提出修改建議。
-* 程式基底「必須」包含貢獻指引，說明歡迎貢獻的內容類型，以及貢獻者可如何參與開發，例如以「`CONTRIBUTING`」檔案說明。
-* 程式基底「必須」以文件記錄程式基底、貢獻內容與社群互動等的治理方式，例如以「`GOVERNANCE`」檔案來說明。
-* 貢獻指引「應該」以文件記錄預期由何者負擔審查貢獻內容所需的開銷費用。
-* 程式基底「應該」宣布投入其開發與維護工作的參與組織單位。
-* 程式基底「應該」要有可公開取得的發展路線圖。
-* 程式基底「應該」公布程式基底的活動統計數據。
-* 「可選擇」是否為程式基底加入貢獻者的行為守則。
+## How to test
 
-## 測試方式
+* Confirm that it is possible to submit suggestions for changes to the codebase.
+* Confirm there are contribution guidelines.
+* Confirm that the codebase governance is clearly explained, including how to influence codebase governance.
+* Check that contributing guidelines cover who is expected to cover the costs of reviewing contributions.
+* Check for a list of involved organizations.
+* Check for a roadmap.
+* Check for published activity statistics.
+* Check for a code of conduct.
 
-* 確認可以提交修改建議給程式基底。
-* 確認程式基底有貢獻指引。
-* 確認程式基底有清楚解釋治理架構，並包含如何影響程式基底治理的方法。
-* 確認貢獻指引是否有涵蓋預期由何者負擔審查貢獻內容的開銷費用。
-* 檢查是否有參與的組織單位名單。
-* 檢查是否有發展路線圖。
-* 檢查是否有公布活動統計數據。
-* 檢查是否有行為守則。
+## Public policy makers: what you need to do
 
-## 公共政策制定者：需要的工作
+* Add a list to the codebase of any other resources that [policy](../glossary.md#policy) experts, non-governmental organizations and academics would find useful for understanding or reusing your policy.
+* Consider adding contact details so that other policy makers considering collaboration can ask you for advice.
 
-* 為程式基底加入其他資源的清單，而這些資源可幫助[政策](../glossary.md#policy)專家、非政府組織、學者等，更能瞭解或可重複利用您的政策。
-* 考慮放入聯絡資訊，讓其他考慮合作的政策制定者能徵詢您的意見。
+## Managers: what you need to do
 
-## 管理人員：需要的工作
-
-* 確保治理架構文件內容中，有包含目前如何改變治理狀態的流程。
-* 如果社群對於治理架構應該如何改變有共識，則應該將這些構想宣告為願景寫入文件中。
-* 若有需要，確認您有編列貢獻內容審查流程的預算，且經過程式基底社群同意。
-* 確認文件有解釋每個參與組織單位所投入的內容，例如提供程式基底哪些資源，以及參與的時間長度等。
-* 支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能長久參與社群。
+* Make sure that the documentation of the governance includes the current process for how to make changes to the governance.
+* If the community has some consensus about how the governance should change, then include those ideas stated as ambitions in the documentation.
+* If needed, make sure you have allocated budget for the contributions review process as agreed by the codebase community.
+* Make sure the documentation explains how each organization is involved in the codebase, what resources it has available for it and for how long.
+* Support your experienced policy makers, developers and designers to stay part of the community for as long as possible.
 
 <p style="page-break-after: always;"></p>
+## Developers and designers: what you need to do
 
-## 開發人員與設計師：需要的工作
+* Respond promptly to requests.
+* Keep your managers informed of the time and resources you require to support other contributors.
+* Communicate clearly to contributors what they need to do make sure their contribution can be integrated.
 
-* 快速回應請求。
-* 告知管理人員，您在支援其他貢獻者時所需的時間與資源。
-* 清楚告知貢獻者他們該如何做，才能讓貢獻內容整合到程式基底中。
+## Further reading
 
-## 延伸閱讀
-
-* 開放原始碼指引所提供的《[營造友善的社群](https://opensource.guide/building-community/)》。
-* Mike McQuaid《[開放原始碼貢獻者瓶頸](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/)》。
-* 開放原始碼指引針對推動[開放原始碼](../glossary.md#open-source)社群專案所寫的《[領導與治理](https://opensource.guide/leadership-and-governance/)》。
-* Pieter Hintjens《[打造網路社群](http://hintjens.com/blog:117)》(長篇文章！)。
+* [Building welcoming communities](https://opensource.guide/building-community/) by Open Source Guides.
+* [The Open Source Contributor Funnel](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/) by Mike McQuaid.
+* [Leadership and governance](https://opensource.guide/leadership-and-governance/) for growing [open source](../glossary.md#open-source) community projects, by Open Source Guides.
+* [Building online communities](http://hintjens.com/blog:117) by Pieter Hintjens (long read!).
