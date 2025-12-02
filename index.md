@@ -30,7 +30,7 @@ toc: false
 * [貢獻指引](CONTRIBUTING.md)
 * [行為守則](CODE_OF_CONDUCT.md)
 * [治理方式](GOVERNANCE.md)
-* [版本歷史](CHANGELOG.md)
+* [版本歷史](RELEASE_NOTES.md)
 * [授權](license.html)
 
 ## 社群會議
