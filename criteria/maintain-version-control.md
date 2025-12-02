@@ -5,56 +5,57 @@ order: 6
 redirect_from:
   - criteria/version-control-and-history
 ---
-# Maintain version control
 
-[Version control](../glossary.md#version-control) means keeping track of changes to the [source code](../glossary.md#source-code) and other files of the [codebase](../glossary.md#codebase) over time.
-This allows you to maintain structured documentation of the history of the codebase.
-This is essential for collaboration at scale, as it enables developers to work on changes in parallel and helps future developers to understand the reasons for changes.
+# 維護版本控制
 
-## Requirements
+[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md#source-code)以及其他[程式基底](../glossary.md#codebase)檔案歷來的變動。這能讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發人員可以
+針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。
 
-* All files in the codebase MUST be version controlled.
-* All decisions MUST be documented in commit messages.
-* Every commit message MUST link to discussions and issues wherever possible.
-* The codebase SHOULD be maintained in a distributed version control system.
-* Contribution guidelines SHOULD require contributors to group relevant changes in commits.
-* Maintainers SHOULD mark released versions of the codebase, for example using revision tags or textual labels.
-* Contribution guidelines SHOULD encourage file formats where the changes within the files can be easily viewed and understood in the version control system.
-* It is OPTIONAL for contributors to sign their commits and provide an email address, so that future contributors are able to contact past contributors with questions about their work.
+## 需求規定
 
-## How to test
+* 程式基底中的所有檔案皆「必須」有版本控制。
+* 所有決定皆「必須」記錄成送交版次訊息。
+* 每份送交版次訊息皆「必須」盡可能附上討論與議題連結。
+* 程式基底「應該」以分散式版本控制系統作維護。
+* 貢獻守則「應該」要求貢獻者，將相關的修改變動以群組分類方式送交。
+* 維護人員「應該」使用像是修訂版次標記，或文字標籤，來標示程式基底正式發行的版本。
+* 貢獻守則「應該」鼓勵採用能在版本控制系統中，輕鬆檢視與瞭解檔案中何處有做出更動的檔案格式。
+* 貢獻者「可選擇」是否對送交內容作簽章，並附上電子郵件信箱，以便當未來貢獻者對其內容有疑問時，可以與之前的貢獻者聯絡。
 
-* Confirm that the codebase is kept in version control using software such as Git.
-* Review the commit history, confirming that all commit messages explain why the change was made.
-* Review the commit history, confirming that where possible all commit messages include the discussion about the change was or where to find it (with a URL).
-* Check if the version control system is distributed.
-* Review the commit history, check if grouping of relevant changes in accordance with the contributing guidelines.
-* Check that it is possible to access a specific version of the codebase, for example through a revision tag or a textual label.
-* Check that the file formats used in the codebase are text formats where possible.
+## 測試方式
 
-## Public policy makers: what you need to do
+* 確認程式基底維持在版本控制狀態中，像是使用 Git 之類的軟體。
+* 審查送交版次歷史紀錄，確認所有的送交版次訊息，皆有解釋程式碼修改變動的原因。
+* 審查送交版次歷史紀錄，確認所有送交版次訊息之中，盡可能在所有討論過修改變更的地方，包含變動內容以及連結位置（提供網址）。
+* 檢查版本控制系統是否為分散式。
+* 審查送交版次歷史紀錄，檢查是否有根據貢獻指引將相關的程式碼變動以群組分類。
+* 檢查是否可能透過像是修訂版次標記，或文字標籤，來取用程式基底中的特定版本。
+* 檢查程式基底在盡可能的情況下，檔案都是採用文字格式。
 
-* If a new version of the codebase is created because of a [policy](../glossary.md#policy) change, make sure it's clear in the documentation:
-  * what the policy change is,
-  * how it's changed the codebase.
+## 公共政策制定者：需要的工作
 
-For example, adding a new category of applicant to a codebase that manages granting permits would be considered a policy change.
+* 如果因為[政策](../glossary.md#policy)改變而在程式基底中有新的版本，則請確認有在文件中清楚說明：
+   * 政策改變的地方，
+   * 程式基底如何因應而改變。
 
-## Managers: what you need to do
+舉例來說，為程式基底作權限管理時，如果要新增申請方類別來賦予取用權，應視為一種政策變動。
 
-* Support policy makers, developers and designers to be clear about what improvements they're making to the codebase. Making improvements isn't a public relations risk.
+## 管理人員：需要的工作
 
-## Developers and designers: what you need to do
+* 支持政策制定者、開發人員與設計師，使其能清楚表達他們對程式基底做出的改善。確保改善程式基底不會有公關風險。
 
-* Make sure that all files required to understand the code, build and deploy are in the version control system.
-* Write clear commit messages so that it is easy to understand why the commit was made.
-* Mark different versions so that it is easy to access a specific version, for example using revision tags or textual labels.
-* Write clear commit messages so that versions can be usefully compared.
-* Work with policy makers to describe how the source code was updated after a policy change.
+## 開發人員與設計師：需要的工作
 
-## Further reading
+* 確認版本控制系統中，有瞭解程式碼、建置與部署所需要用到的所有檔案。
+* 送交版次訊息要寫清楚，讓人一看就能瞭解送交修改的原因。
+* 使用像是修訂版次標記，或文字標籤來標示不同版本，以方便取用特定版本。
+* 送交版次訊息要寫清楚，方便之後比較各版本。
+* 在政策改變以後，與政策制定者合作說明原始碼更新的部分。
 
-* [Producing OSS: Version Control Vocabulary](https://producingoss.com/en/vc.html#vc-vocabulary) by Karl Fogel.
-* [Maintaining version control in coding](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding) by the UK Government Digital Service.
-* [GitHub Skills](https://skills.github.com/) by GitHub for learning how to use GitHub or refresh your skills.
-* [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub, a list with the most common used git commands.
+## 延伸閱讀
+
+* Karl Fogel《[製作開放原始碼軟體：版本控制字彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
+* 英國政府數位服務團《[維護程式碼的版本控制](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)》。
+* GitHub 提供的「[GitHub 技能](https://skills.github.com/)」，可學習如何使用 GitHub，或是重溫您的技巧。
+* GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-education.pdf)」，列出了最常用的 git 命
+令。

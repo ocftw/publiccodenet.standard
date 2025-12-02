@@ -5,36 +5,37 @@ order: 8
 redirect_from:
   - criteria/document-objectives
 ---
-# Document codebase objectives
 
-Clearly documenting [codebase](../glossary.md#codebase) objectives communicates the purpose of the codebase.
-It helps stakeholders and contributors scope the development of the codebase.
-The objectives also provide an easy way for people to decide whether this codebase, or one of its modules, is interesting for them now or in the future.
+# 程式基底要有目標文件
 
-## Requirements
+以文件清楚記錄[程式基底](../glossary.md#codebase)目標，來傳達程式基底的用途目標。這能幫助利害關係人與貢獻者劃定程式基底的開發範圍。這些目
+標也能方便人們判斷，是否在當下或未來，會對此程式基底或其模組感興趣。
 
-* The codebase MUST contain documentation of its objectives, like a mission and goal statement, that is understandable by developers and designers so that they can use or contribute to the codebase.
-* Codebase documentation SHOULD clearly describe the connections between [policy](../glossary.md#policy) objectives and codebase objectives.
-* Documenting the objectives of the codebase for the [general public](../glossary.md#general-public) is OPTIONAL.
+## 需求規定
 
-## How to test
+* 程式基底「必須」包含描寫目標的文件，像是主旨、使命或目標陳述。開發人員與設計師需要能夠瞭解這些，他們才知道可以怎樣使用程式基底或協助貢獻。
+* 程式基底文件「應該」清楚描述[政策](../glossary.md#policy)目標與程式基底目標之間的關聯。
+* 「可選擇」是否以文件記錄給[一般大眾](../glossary.md#general-public)看的程式基底目標。
 
-* Confirm that the codebase documentation includes the codebase objectives, mission or goal.
-* Check for descriptions of connections between policy objectives and codebase objectives.
+## 測試方式
 
-## Public policy makers: what you need to do
+* 確認程式基底文件有包含程式基底目標，或主旨、使命等。
+* 查看政策目標與程式基底目標之間關聯的描述。
 
-* Add the policy objectives to the codebase documentation, for example in the `README`.
-* Make sure that all your codebase objectives have links or references to supporting policy documents added to meet the [Bundle policy and source code](bundle-policy-and-source-code.md) criterion.
+## 公共政策制定者：需要的工作
 
-## Managers: what you need to do
+* 將政策目標加入程式基底文件中，例如「`README`」文件當中。
+* 確保所有程式基底目標，有連結或引用為了符合〈[政策與原始碼要合捆](bundle-policy-and-source-code.md)〉準則而加入的支持政策文
+件。
 
-* Add the organizational and business objectives to the codebase documentation, for example in the `README`.
+## 管理人員：需要的工作
 
-## Developers and designers: what you need to do
+* 將單位目標、組織目標或業務目標加入程式基底文件中，例如「`README`」文件當中。
 
-* Add the technology and design objectives to the codebase documentation, for example in the `README`.
+## 開發人員與設計師：需要的工作
 
-## Further reading
+* 將技術與設計目標加入程式基底文件中，例如「`README`」文件當中。
 
-* [How to write project objectives](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf) by Marek Hajduczenia.
+## 延伸閱讀
+
+* Marek Hajduczenia《[如何撰寫專案目標](http://grouper.ieee.org/groups/802/3/RTPGE/public/may12/hajduczenia_01_0512.pdf)》。

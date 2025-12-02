@@ -3,46 +3,46 @@
 # SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 5
 ---
-# Make contributing easy
+# 貢獻要容易
 
-To develop better, more reliable and feature rich software, users need to be able to fix problems, add features, and address security issues of the shared [codebase](../glossary.md#codebase).
+若要開發更好、更可靠且功能更豐富的軟體，使用者需要能夠為共享的[程式基底](../glossary.md#codebase)修正問題、新增功能，以及提出安全性議題
+等。
 
-A shared digital infrastructure makes it easier to make collaborative contributions.
-The less effort it takes to make contributions that are accepted by the codebase, the more likely users are to become contributors.
+共享的數位基礎建設讓協作貢獻更容易。使用者讓程式基底接受貢獻時所需付出的心力越少，則使用者越可能成為貢獻者。
 
-## Requirements
+## 需求規定
 
-* The codebase MUST have a public issue tracker that accepts suggestions from anyone.
-* The documentation MUST link to both the public issue tracker and submitted codebase changes, for example in a `README` file.
-* The codebase MUST have communication channels for users and developers, for example email lists.
-* There MUST be a way to report security issues for responsible disclosure over a closed channel.
-* The documentation MUST include instructions for how to report potentially security sensitive issues.
+* 程式基底「必須」有個可以公開接受任何人建議的議題追蹤器。
+* 文件中「必須」同時有公開的議題追蹤器連結，以及已提交的程式基底變動的連結，例如記錄在「`README`」檔案中。
+* 程式基底「必須」要有能與使用者以及開發人員溝通的管道，像是設立電子郵件列表（郵遞論壇）。
+* 「必須」有透過封閉管道通報安全性問題的方法，來達成負責任的揭露。
+* 文件「必須」說明，該如何通報潛在的安全性與敏感性問題。
 
-## How to test
+## 測試方式
 
-* Confirm that there is a public issue tracker.
-* Confirm that the codebase contains links to the public issue tracker and submitted codebase changes.
-* Confirm that it is possible to participate in a discussion with other users and developers about the software using channels described in the codebase.
-* Confirm that there is a closed channel for reporting security issues.
-* Confirm that there are instructions for privately reporting security issues.
+* 確認有公開的議題追蹤器。
+* 確認程式基底有公開的議題追蹤器連結，以及已提交的程式基底變動的連結。
+* 確認可以使用程式基底中提到的管道，與其他使用者以及開發人員一同討論該軟體。
+* 確認有封閉的管道可通報安全性問題。
+* 確認有說明如何私下通報安全性問題。
 
-## Public policy makers: what you need to do
+## 公共政策制定者：需要的工作
 
-* Track [policy](../glossary.md#policy) issues in the codebase, so that a relevant external policy expert can volunteer help.
+* 追蹤程式基底中的[政策](../glossary.md#policy)問題，讓相關的外部政策專家如果自願也能夠協助。
 
-## Managers: what you need to do
+## 管理人員：需要的工作
 
-* Track management issues in the codebase, so that external managers with relevant experience can volunteer help.
-* Support your experienced policy makers, developers and designers to keep contributing to the codebase for as long as possible.
+* 追蹤程式基底中的管理問題，讓有相關經驗的外部管理人員如果自願也能夠協助。
+* 支持您經驗豐富的政策制定者、開發人員與設計師，使其盡可能為程式基底持續做出長久貢獻。
 
-## Developers and designers: what you need to do
+## 開發人員與設計師：需要的工作
 
-* Just like for [reviews](require-review-of-contributions.md), make sure to respond to requests promptly.
-* Keep your managers informed of the time and resources you require to support other contributors.
-* Make sure that appropriate communication channels for asking maintainers and stakeholders questions are easy to locate, for instance in the README.
-* Make sure that appropriate contact details are included in the metadata, for instance in the publiccode.yml file.
+* 與[審查](require-review-of-contributions.md)流程相同，務必迅速回應請求。
+* 告知管理人員，您在支援其他貢獻者時所需的時間與資源。
+* 確保人們可輕鬆找到合適的溝通管道，來詢問維護人員與利害關係人問題，例如寫在「`README`」文件當中。
+* 確保中介資料包含合適的聯絡資訊，例如寫在 publiccode.yml 檔案中。
 
-## Further reading
+## 延伸閱讀
 
-* [How to inspire exceptional contributions to your open-source project](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-project-1ebf) by Joel Hans.
-* [The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/) by the UK Government Digital Service.
+* Joel Hans《[如何引發他人為您的開放原始碼專案做出優秀貢獻](https://dev.to/joelhans/how-to-inspire-exceptional-contributions-to-your-open-source-project-1ebf)》。
+* 英國政府數位服務團《[以開放精神編寫原始碼的好處](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)》。
