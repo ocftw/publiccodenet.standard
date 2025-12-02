@@ -1,6 +1,6 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 1
 ---
 # 原始碼要開放
@@ -15,8 +15,7 @@ order: 1
 * 任何使用中軟體的所有原始碼都「必須」要公開（用於偵測詐欺的原始碼除外），且能供民眾取用。
 * 程式基底「禁止」包含與使用者及其組織單位，或與第三方相關的敏感性資訊。
 * 目前非使用中的任何原始碼（像是新版本、提案版本，或較舊版本）都「應該」公開。
-* 「可選擇」是否要以文件記錄[一般大眾](../glossary.md#general-public)與組織單位之間可能發生的任何特定互動，其背後所採用的原始碼或
-支持的政策。
+* 「可選擇」是否要以文件記錄[一般大眾](../glossary.md#general-public)與組織單位之間可能發生的任何特定互動，其背後所採用的原始碼或支持的政策。
 
 ## 測試方式
 

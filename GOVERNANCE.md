@@ -1,16 +1,102 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2024-2025 Standard for Public Code Authors, https://github.com/standard-for-public-code/standard-for-public-code/blob/develop/AUTHORS.md
 ---
 
 # 治理方式
 
-本標準是 [Foundation for Public Code](https://publiccode.net/) 在為程式基底提供督導時的核心。我們依照這份文件來判斷，某個程式基底是否已經準備好讓社群共同參與開發。
+《公共程式標準》是由社群治理的專案。
 
-這份標準由 Foundation for Public Code 職員負責維護。
+## Principles
 
-[我們歡迎任何人貢獻，例如提供修改建議，或是給予一般意見回饋等。](/CONTRIBUTING.md)
+The Standard for Public Code community adheres to the following principles:
 
-由於《公共程式標準》在我們的核心流程中，扮演至關重要的角色，所以我們會以《公共程式標準》的最高標準作要求。
+- Open - as little restrictions as possible for anyone to adapt the Standard for Public Code to their context
+- Welcoming and respectful - as a community we want to make it easier for new users to become contributors
+- Transparent and accessible - changes to the Standard for Public Code, its governance, and any other related activity are done in public
+- Ideas and contributions are accepted according to their alignment with project objectives, scope, and design principles
 
-我們會努力儘速回覆所有拉取請求。拉取請求使我們有機會一起合作，來改善我們的方法與這份標準。我們有可能不會接受貢獻者提出的所有修改，而我們會解釋背後的邏輯。
+## Steering team
+
+The community of Standard for Public Code has one steering team.
+
+### Composition
+
+Any active contributor in the community can request to become a steering team member by asking the steering team.
+The steering team will vote on it (see voting below).
+
+The current team members are:
+
+- Claus Mullie
+- Johan Groenen (Tiltshift, Code for NL)
+- Rasmus Frey (OS2)
+- Josef Andersson (Digg)
+- [Matti Schneider](https://mattischneider.fr)
+- [Bastien Guerry](https://bzg.fr)
+- Anton Wiklund (Arbetsförmedlingen)
+
+Ideally, no single organization will employ a majority of the steering team.
+
+### Responsibilities
+
+The steering team members are active contributors who are on a day-to-day basis responsible for:
+
+- Merging pull requests
+- Handling code of conduct violations
+
+Besides the day-to-day activities, the steering team has the joint responsibility to:
+
+- Provide technical direction for the codebase
+- Maintain a roadmap, and contributing principles
+- Resolve issues in development or conflicts between contributors
+- Managing and planning releases
+- Controlling access rights to Standard for Public Code assets such as source repositories, hosting and project calendars
+- Maintaining the mission, vision, values, and scope of the project
+- Refining the governance as needed
+- Making codebase level decisions
+- Managing the Standard for Public Code brand
+- Licensing and intellectual property changes
+
+### Meetings
+
+The steering team meets regularly.
+Their agenda includes review of the roadmap and issues that are at an impasse.
+The intention of the agenda is not to review or approve all patches.
+(Reviewing and approving patches is done through the process described in [CONTRIBUTING.md](CONTRIBUTING.md).)
+
+## Decision making process
+
+The decision making process is consent as a default, and voting for certain matters.
+
+### Consent
+
+For this community, “consent” means that if you think that a decision is uncontroversial you can just go ahead and make that decision.
+Any decision made this way is considered supported as long as no one objects.
+Of course, you have to be prepared to roll back your work if someone does object.
+
+If there is uncertainty about a decision, a steering team member can inform the rest of the team that they are about to take a certain decision.
+If no team member objects within 96 hours, the decision is considered supported.
+If objections are made, and no solutions can be found through discussion, a team member can call for a majority vote on a decision, see below.
+
+### Voting
+
+Every steering team member has 1 vote.
+All votes are recorded publicly.
+
+Many of the day-to-day project maintenance tasks can be done with the consent decision-making process.
+But the following items **must** be called to vote:
+
+- Adding a team member (simple majority)
+- Removing a team member (super majority)
+- Changing the governance rules (this document) (super majority)
+- Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
+- Adding, archiving, or removing sub-projects (simple majority)
+
+By simple majority, we mean that at least half of the steering team members have voted in favor, and super majority two thirds of the steering team members.
+
+## Code of Conduct
+
+The Standard for Public Code's Code of Conduct is explained in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+If the possible violation involves a team member that member will be recused from voting on the issue.
+Such issues must be escalated to the steering team contact, and the steering team may choose to intervene.
