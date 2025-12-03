@@ -1,21 +1,47 @@
-# 印刷
+# Printing
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+<!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2021-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 
-《公共程式標準》是由 Reclameland 負責印刷。本指引試著提供印刷相關資訊，方便您到 Reclameland 或其他地方印刷。
+## Generating a PDF of the Standard for Public Code
 
-印刷詳細資訊（多數依照 Reclameland 網頁上的順序，依需要附上荷蘭語）：
+In addition to Jekyll, generating PDFs relies upon [Weasyprint](https://weasyprint.org/).
+Print versions depend upon [pdfjam](https://github.com/rrthomas/pdfjam).
+[Pandoc](https://pandoc.org/) can be used to transform PDFs into `.epub`.
 
-* 樣式：平裝書 ([Reclameland 產品頁面](https://www.reclameland.nl/drukken/softcover-boeken))
-* 紙張尺寸：A4
-* 直向或橫向：直向 (Staand)
-* 內頁印刷：正四反四 4/4，雙面全色印刷
-* 內頁材質：Biotop 90克
-* 封面：350 克封面
-* 封面印刷：正四反空 4/0，單面滿版印刷
-* 封面處理：單面霧面層剝處理 (Enke)
-* 頁數：書內頁數 + 4 + x，x 是 0-3頁，讓總頁數是 4 的倍數
-* 個別封裝：無
+To generate these kinds of files, the dependencies should be installed, for example:
 
-一旦選定這些印刷的詳細資訊，封面與內頁就會上傳，並且下單與付費。付費後才會開始印刷。
+```bash
+sudo apt-get install -y \
+        pandoc \
+        python3-pip \
+        python3-venv \
+        texlive-extra-utils \
+        weasyprint
+```
+
+The file `standard-print.html` can be converted to a nice looking PDF, along with the other release files, using:
+
+```bash
+script/pdf.sh
+```
+
+## Printing the Standard for Public Code
+
+The printed Standard for Public Code is printed by Reclameland.
+This guide tries to provide the relevant information to print it there or somewhere else.
+
+Details, mostly in order they are on the Reclameland page with the Dutch if necessary:
+
+* Form: Softcover book ([Reclameland product page](https://www.reclameland.nl/drukken/softcover-boeken))
+* Format: A4
+* Portrait or landscape: Portrait (Staand)
+* Printing inside: 4/4 dual sided full color
+* Inside material: 90 grams biotop
+* Cover: 350 grams cover
+* Printing cover: 4/0 one sided full cover
+* Cover treatment: one sided matt foliated (Enke)
+* Pages: pages of the inside + 4 + x, where x is 0-3 so that the sum becomes a multiple of 4
+* Individually sealed: no
+
+When these details are chosen, the cover and insides are uploaded and the order is placed payment can happen (payment ahead) after which printing starts.

@@ -1,15 +1,15 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 6
 redirect_from:
   - criteria/version-control-and-history
 ---
-
 # 維護版本控制
 
-[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md#source-code)以及其他[程式基底](../glossary.md#codebase)檔案歷來的變動。這能讓您為程式基底維護有條理的變動歷史文件。這是大規模協作得以運作的要素，使開發人員可以
-針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。
+[版本控制](../glossary.md#version-control)主要在追蹤[原始碼](../glossary.md#source-code)以及其他[程式基底](../glossary.md#codebase)檔案歷來的變動。
+這能讓您為程式基底維護有條理的變動歷史文件。
+這是大規模協作得以運作的要素，使開發人員可以針對修改變動平行作業，並幫助未來的開發人員瞭解做出修改的原因。
 
 ## 需求規定
 
@@ -57,5 +57,4 @@ redirect_from:
 * Karl Fogel《[製作開放原始碼軟體：版本控制字彙](https://producingoss.com/en/vc.html#vc-vocabulary)》。
 * 英國政府數位服務團《[維護程式碼的版本控制](https://www.gov.uk/service-manual/technology/maintaining-version-control-in-coding)》。
 * GitHub 提供的「[GitHub 技能](https://skills.github.com/)」，可學習如何使用 GitHub，或是重溫您的技巧。
-* GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-education.pdf)」，列出了最常用的 git 命
-令。
+* GitHub 提供的「[Git 密技表](https://education.github.com/git-cheat-sheet-education.pdf)」，列出了最常用的 git 命令。
