@@ -13,3 +13,6 @@ release.body
 *.orig
 node_modules/
 package-lock.json
+origin_source/.DS_Store
+locales/.DS_Store
+*.DS_Store
