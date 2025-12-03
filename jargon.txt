@@ -69,6 +69,7 @@ Fogel
 foliated
 fontconfig
 fontname
+GDPR
 GDS
 Gemeente
 Gemfile
@@ -176,6 +177,7 @@ runtime
 Sanderson
 Schee
 Schuijff
+SEO
 shortDescription
 Signalen
 skybristol
