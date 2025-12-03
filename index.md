@@ -17,7 +17,7 @@ toc: false
 《公共程式標準》當中的準則，符合開放原始碼軟體開發的指引與最佳實務。
 
 {% for page in site.pages %}{% if page.name == "foreword.md" %}
-其他情境與背景資訊請參閱[序文](foreword.md)。 
+其他情境與背景資訊請參閱[序文](foreword.md)。
 {% endif%}{% endfor %}
 
 ## 目次
@@ -30,7 +30,7 @@ toc: false
 * [貢獻指引](CONTRIBUTING.md)
 * [行為守則](CODE_OF_CONDUCT.md)
 * [治理方式](GOVERNANCE.md)
-* [版本歷史](CHANGELOG.md)
+* [版本歷史](RELEASE_NOTES.md)
 * [授權](license.html)
 
 ## 社群會議

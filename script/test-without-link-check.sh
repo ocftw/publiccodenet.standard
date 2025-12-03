@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2021-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2021-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 # This script is referenced by .github/workflows/test.yml which executes on
 # each pull request.
@@ -11,15 +11,15 @@
 
 set -e # halt script on error
 
-# if PAGES_REPO_NWO is not set then default to publiccodenet/standard
+# if PAGES_REPO_NWO is not set then default to standard-for-public-code/standard-for-public-code
 # (jekyll defaults to "origin" if a remote of that name exists,
 # which makes sense for a true fork, but not for most contributors)
 if [ "_${PAGES_REPO_NWO}_" == "__" ]; then
-export PAGES_REPO_NWO=publiccodenet/standard
+	export PAGES_REPO_NWO=standard-for-public-code/standard-for-public-code
 fi
 
 # Build the site
-bundle exec jekyll build
+bundle exec jekyll build -b ''
 
 # Check for broken links and missing alt tags:
 # jekyll does not require extentions like HTML
@@ -28,6 +28,6 @@ bundle exec jekyll build
 # ignore request rate limit errors (HTTP 429)
 # using the files in Jekylls build folder
 bundle exec htmlproofer \
-    --assume-extension \
-    --disable-external \
-    ./_site
+	--assume-extension \
+	--disable-external \
+	./_site

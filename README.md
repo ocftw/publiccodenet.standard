@@ -37,7 +37,7 @@
 本標準放在線上：[standard.publiccode.net](https://standard.publiccode.net/)。
 請參閱[`index.md`](index.md) 查看整體內容概覽。
 
-## 幫忙改善這份標準
+## 幫忙改善這份標準 {#help-improve-this-standard}
 
 我們正在尋找像您這樣的人，能對此專案做出[貢獻](CONTRIBUTING.md)，像是建議改善方向，以及協助開發等。😊
 若要開始，請先參閱我們的[貢獻者指引](CONTRIBUTING.md)。

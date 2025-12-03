@@ -1,7 +1,11 @@
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2021-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 name: local link check
+
+permissions:
+  contents: read
+
 on:
   workflow_dispatch: {}
 #  schedule:
@@ -22,10 +26,10 @@ defaults:
 
 jobs:
   cibuild:
-    if: ${{ github.repository == 'publiccodenet/standard' }}
+    if: ${{ github.repository == 'standard-for-public-code/standard-for-public-code' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'

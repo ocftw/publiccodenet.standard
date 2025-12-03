@@ -1,11 +1,10 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 4
 redirect_from:
   - criteria/open-to-contributions
 ---
-
 # 歡迎貢獻者
 
 [程式基底](../glossary.md#codebase)社群的氛圍，會影響使用者選擇所要使用的程式基底。歡迎任何人成為貢獻者的社群，才能夠不斷茁壯並且持續自我

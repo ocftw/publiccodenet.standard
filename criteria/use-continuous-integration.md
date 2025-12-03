@@ -1,19 +1,20 @@
 ---
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 order: 12
 redirect_from:
   - criteria/continuous-integration
 ---
-
 # 使用持續整合
 
-透過自動化測試驗證，開發人員能更頻繁地將其工作成果合併至共享的分支，達成非同步協作。合併的頻率越頻繁、貢獻的規模越小，在合併時所發生的衝突就越容易解決。
+透過自動化測試驗證，開發人員能更頻繁地將其工作成果合併至共享的分支，達成非同步協作。
+合併的頻率越頻繁、貢獻的規模越小，在合併時所發生的衝突就越容易解決。
 
-自動化測試所有功能，使人更加信賴貢獻內容發揮其功用且沒有引發任何錯誤，同時讓審查人員專注在貢獻的結構與作法。測試越聚焦，就越容易辨識並瞭解所出現的問題。
+自動化測試所有功能，使人更加信賴貢獻內容發揮其功用且沒有引發任何錯誤，同時讓審查人員專注在貢獻的結構與作法。
+測試越聚焦，就越容易辨識並瞭解所出現的問題。
 
-以文件記錄程式基底的[持續整合](../glossary.md#continuous-integration)工作流程，能協助貢獻者瞭解對貢獻內容的期待。持續整合讓
-監管[程式基底](../glossary.md#codebase)狀態變得更為簡單。
+以文件記錄程式基底的[持續整合](../glossary.md#continuous-integration)工作流程，能協助貢獻者瞭解對貢獻內容的期待。
+持續整合讓監管[程式基底](../glossary.md#codebase)狀態變得更為簡單。
 
 ## 需求規定
 
