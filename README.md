@@ -1,4 +1,4 @@
-# 公共程式標準
+# 《公共程式標準》
 
 <!-- SPDX-License-Identifier: CC0-1.0 -->
 <!-- SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
@@ -25,7 +25,7 @@
 
 本標準 *應該* 足以自我解釋要如何套用到您的程式基底中。
 若標準中有任何不明確的地方，我們鼓勵您在此開立議題，來讓我們能協助您以及其他與您抱持同樣看法的人。
-如果需要一點靈感啟發，請參閱[社群製作的《實踐指引》](https://publiccodenet.github.io/community-implementation-guide-standard/)，其中包括範例與其他提示。
+如果需要一點靈感啟發，請參閱[社群製作的《實踐指引》](https://standard-for-public-code.github.io/community-implementation-guide-standard/)，其中包括範例與其他提示。
 
 ## 徵求貢獻
 
@@ -34,7 +34,7 @@
 
 本標準為程式基底設立品質檢核水準，使其能滿足公家機關、社會機構、行政單位，以及其他重大基礎設施服務的需求。
 
-本標準放在線上：[standard.publiccode.net](https://standard.publiccode.net/)。
+本標準放在線上：[www.standardforpubliccode.org/](https://www.standardforpubliccode.org/)。
 請參閱[`index.md`](index.md) 查看整體內容概覽。
 
 ## 幫忙改善這份標準 {#help-improve-this-standard}
@@ -50,7 +50,7 @@
 
 ## 預覽、建置、部署
 
-儲存庫會建置一個靜態網站，並部署至 [standard.publiccode.net](https://standard.publiccode.net/)。
+儲存庫會建置一個靜態網站，並部署至 [www.standardforpubliccode.org/](https://www.standardforpubliccode.org/)。
 網站採用 [GitHub 頁面](https://pages.github.com) 與 [Jekyll](https://jekyllrb.com/) 技術。
 
 網站內容透過 [Jekyll](http://jekyllrb.com/) 技術建置。這代表您需要有安裝 ruby 與 ruby-bundler，例如：
@@ -92,7 +92,8 @@ CC0 代表任何人都能任意使用這些內容。
 如果您是貢獻者，代表您也將這些權利賦予他人。
 若要進一步瞭解如何協助本專案，請參閱〈[貢獻指引](CONTRIBUTING.md)〉。
 
-## 軟體中文化
+## 正體中文在地化程式庫說明
 
-本專案於 0.7.1 版前為數位部開放原始碼軟體中文化專案工作項目之一，由智新資通 與開放文化基金會，號召臺灣 L10N.tw 社群協助貢獻，推動歷程詳細參考： [Wiki](https://github.com/moda-gov-tw/publiccodenet.standard/wiki)。
-；0.8 版後貢獻為「我國各級機關數位工具及公共程式調查研析及業務推動服務案後續擴充」專案工作項目之一，由勤業眾信與開放文化基金會號召臺灣社群持續更新之。
+本專案於 0.7.1 版前為數位部開放原始碼軟體中文化專案工作項目之一，由智新資通與開放文化基金會，號召臺灣 L10N.tw 社群協助貢獻，推動歷程詳細參考： [Wiki](https://github.com/moda-gov-tw/publiccodenet.standard/wiki)。
+0.8 版後貢獻為「我國各級機關數位工具及公共程式調查研析及業務推動服務案後續擴充」專案工作項目之一，由勤業眾信與開放文化基金會號召臺灣社群持續更新。
+本專案僅為推廣公共程式在地化運用，完整功能仍依[上游社群最新開發中專案](https://github.com/standard-for-public-code/standard-for-public-code/)為主。
