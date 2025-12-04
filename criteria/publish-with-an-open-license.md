@@ -46,7 +46,6 @@ redirect_from:
 * 每當程式基底重複利用原始碼時，都要確認原始碼的授權與程式基底的授權相容。
 
 <p style="page-break-after: always;"></p>
-
 ## 延伸閱讀
 
 * 開放原始碼促進會所發表的《[開放原始碼定義](https://opensource.org/osd)》，所有開放原始碼授權條款皆符合這套定義。
