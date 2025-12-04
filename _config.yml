@@ -9,8 +9,8 @@ plugins:
 
 remote_theme: standard-for-public-code/jekyll-theme
 
-#baseurl: /standard-for-public-code
-url: "https://publiccode.ospo.tw"   # for ZH_TW Test site
+url: "https://publiccode.ospo.tw"
+baseurl: ""
 
 include:
   - "README.md"
