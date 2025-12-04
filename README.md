@@ -96,7 +96,6 @@ CC0 代表任何人都能任意使用這些內容。
 
 * 本專案於 0.7.1 版前為數位部「開放原始碼軟體中文化」專案工作項目之一，由智新資通與開放文化基金會，號召臺灣 L10N.tw 社群協助貢獻，推動歷程詳細參考： [Wiki](https://github.com/moda-gov-tw/publiccodenet.standard/wiki)。
 * 0.8 版與 0.8.1 版後貢獻為「我國各級機關數位工具及公共程式調查研析及業務推動服務案後續擴充」專案工作項目之一，由勤業眾信與開放文化基金會號召臺灣社群持續更新。
-本專案僅為推廣公共程式在地化運用，完整功能仍依[上游社群最新開發中專案](https://github.com/standard-for-public-code/standard-for-public-code/)為主。
-    * 為了得以在台灣使用 PDF 產出功能，修改相關網頁樣式表與 .sh 檔案。
+* 為了得以在台灣使用 PDF 產出功能，修改相關網頁樣式表與 .sh 檔案。
 
- 
+本專案僅為推廣公共程式在地化運用，完整功能仍依[上游社群最新開發中專案](https://github.com/standard-for-public-code/standard-for-public-code/)為主。
