@@ -11,6 +11,7 @@ remote_theme: standard-for-public-code/jekyll-theme
 
 url: "https://publiccode.ospo.tw"
 baseurl: ""
+repository: ocftw/standard-for-public-code
 
 include:
   - "README.md"
