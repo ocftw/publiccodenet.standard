@@ -70,8 +70,8 @@ Open source is defined by the Open Source Initiative in their [Open Source Defin
 
 ## 儲存庫 (Repository) {#repository}
 
-儲存庫是版本控制工具，用於存放程式基底的檔案與中介資料的儲存位置。
-R儲存庫讓多位貢獻者，得以同時對同一組檔案作業。
+儲存庫是版本控制工具存放程式基底檔案與中介資料的位置。
+儲存庫讓多位貢獻者，得以同時對同一組檔案作業。
 儲存庫可以儲存一組檔案的多個版本。
 
 ## 原始碼 (Source Code) {#source-code}
