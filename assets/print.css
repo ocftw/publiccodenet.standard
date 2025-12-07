@@ -32,7 +32,7 @@ html, .markdown-body {
 
 article>p, article>ul, article>ol {
   position: relative;
-  max-width: 30rem;
+  max-width: 32rem;
   text-align: justify;
 }
 
@@ -52,8 +52,8 @@ a:link:before {
   break-inside: avoid;
   display: block;
   right: 0;
-  width: 6cm;
-  margin-right: -7cm;
+  width: 5cm;
+  margin-right: -6cm;
   padding: 0.25rem;
   line-height: 1.25;
   text-align: left;
