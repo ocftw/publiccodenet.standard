@@ -32,11 +32,11 @@
 
 ## 開源或開放原始碼 (Open Source) {#open-source}
 
-Open source is defined by the Open Source Initiative in their [Open Source Definition](https://opensource.org/osd-annotated).
+所謂「開源」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-annotated)》而來。
 
 ## 開放標準 (Open standard) {#open-standard}
 
-所謂「開源」或「開放原始碼」，是根據 OSI 開放原始碼促進會發表的《[開放原始碼定義](https://opensource.org/osd-annotated)》而來。
+任何符合 OSI 開放原始碼促進會《[開放標準需求規範](https://opensource.org/osr)》的標準，就是開放標準。
 
 ## 政策 (Policy) {#policy}
 
