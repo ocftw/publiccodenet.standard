@@ -32,8 +32,7 @@ html, .markdown-body {
 
 article>p, article>ul, article>ol {
   position: relative;
-  max-width: 32rem;
-  text-align: justify;
+  max-width: 29rem;
 }
 
 article {
@@ -52,8 +51,8 @@ a:link:before {
   break-inside: avoid;
   display: block;
   right: 0;
-  width: 4cm;
-  margin-right: -4.2cm;
+  width: 6.25cm;
+  margin-right: -6.75cm;
   padding: 0.25rem;
   line-height: 1.25;
   text-align: left;
@@ -69,7 +68,7 @@ a[href^="http"]:link {
 }
 a[href^="http"]:before {
   content: "" attr(href) "";
-  font-size: .6em;
+  font-size: .575em;
 }
 a[href^="#"] {
   color: black;
