@@ -32,7 +32,7 @@ html, .markdown-body {
 
 article>p, article>ul, article>ol {
   position: relative;
-  max-width: 33rem;
+  max-width: 30rem;
   text-align: justify;
 }
 
