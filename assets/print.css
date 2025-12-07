@@ -54,7 +54,7 @@ a:link:before {
   width: 6.25cm;
   margin-right: -6.75cm;
   padding: 0.25rem;
-  line-height: 1.25;
+  line-height: 1.15;
   text-align: left;
   float: right;
   clear: both;
@@ -68,7 +68,7 @@ a[href^="http"]:link {
 }
 a[href^="http"]:before {
   content: "" attr(href) "";
-  font-size: .575em;
+  font-size: .45em;
 }
 a[href^="#"] {
   color: black;
