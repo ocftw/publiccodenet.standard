@@ -5,19 +5,19 @@ toc: false
 ---
 # 政府開放原始碼協作指引
 
-《公共程式標準》是一套支持公家機關一同協作開發軟體與政策，以及維護的準則。
+《公共程式標準》是一套支持公家機關合作開發與維護軟體與政策的準則。
 
-《公共程式標準》為那些在建構自身開放原始碼解決方案的公家機關提供指引，以便他們未來能成功與其他地方的類似公部門單位互相協作，並且重複使用各自的成果。
-這份標準涵蓋寫給政策制定者、政府管理人員、開發人員與供應商的建議。
-《公共程式標準》支持公家機關透過協作方式，創造出好用、開放、易懂、課責、近用、永續的程式基底。
-這份標準從設計之初，就是要用於各種不同政府層級的程式基底，小從市政府，大到超國家組織都行。
+《公共程式標準》協助公家機關找到其他地方的類似機關在開源解決方案上協作，
+當中包含對決策者、政府管理人員、開發商與供應商的建議。
+《公共程式標準》協助這些機關進行協作，創造出可用、開放、易讀、可負責、可存取以及永續的程式基底。
+從跨國政府到市政府等各層級政府的程式基底，都適用《公共程式標準》。
 
-《公共程式標準》將「[公共程式](glossary.md#public-code)」定義為：由公家機關所開發的開放原始碼軟體，同時包含協作與重複使用所需的政策與指引。
+《公共程式標準》將「[公共程式](glossary.md#public-code)」定義為：由公家機關所開發的開放原始碼軟體，同時包含協作與重複利用所需的政策與指引。
 
-《公共程式標準》當中的準則，符合開放原始碼軟體開發的指引與最佳實務。
+《公共程式標準》準則規定符合開源軟體開發的準則與最佳實例。
 
 {% for page in site.pages %}{% if page.name == "foreword.md" %}
-其他情境與背景資訊請參閱[序文](foreword.md)。
+本文件的「序」章節有更多情境與背景資訊。[序文](foreword.md)。
 {% endif%}{% endfor %}
 
 ## 目次
@@ -35,13 +35,13 @@ toc: false
 
 ## 社群會議
 
-我們通常在每月第一個週四的 15:00 (CET/CEST) 舉辦社群會議。
-[議程](https://github.com/standard-for-public-code/standard-for-public-code/discussions/categories/community-calls)在會議前約一週的時間更新。
+我們通常會在每個月最後一個星期四的下午3點 (CET/CEST) 進行社群會議。
+[議程](https://github.com/standard-for-public-code/standard-for-public-code/discussions/categories/community-calls)討論主題會在會議一週前於討論區協調並公佈。
 
 ## 其他資源
 
-* 本標準非官方的其他語言[社群翻譯](https://translations.standardforpubliccode.org/)
-* 公部門開放原始碼程式基底的《[標準遵循自我評估](https://publiccodenet.github.io/assessment-eligibility/)》
-* Foundation for Public Code 執事人員用於程式基底審查的《[標準準則檢查清單](/docs/review-template.html)》
-* [Compact requirements checklist](https://github.com/standard-for-public-code/standard-for-public-code/releases/download/0.8.1/standard-checklist-0.8.1.pdf) for printed use and in-person discussions
-* [Community built companion](https://standard-for-public-code.github.io/community-implementation-guide-standard/) to the Standard for Public Code
+* 由社群將本標準翻譯成其他語言的非官方翻譯版[社群翻譯](https://translations.standardforpubliccode.org/)
+* 公部門開源程式基底的開放標準依循自我評估《[標準遵循自我評估](https://publiccodenet.github.io/assessment-eligibility/)》
+* 公共程式基金會用於審核程式基底的公共程式標準準則規定審查範本《[標準準則檢查清單](/docs/review-template.html)》
+* [用於列印以及討論的精簡準則規定檢查清單](https://github.com/standard-for-public-code/standard-for-public-code/releases/download/0.8.1/standard-checklist-0.8.1.pdf)
+* [社群為《公共程式標準》打造的補充資源](https://standard-for-public-code.github.io/community-implementation-guide-standard/)
