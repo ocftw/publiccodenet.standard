@@ -8,20 +8,20 @@ redirect_from:
 ---
 # 版本歷史
 
-## Version 0.8.1
+## 0.8.1 版
 
-April 28th 2025: 🧑‍🤝‍🧑 The 18th draft changes to community governance model.
+2025年4月28日： 🧑‍🤝‍🧑 社群治理模型的第18個修正草案。
 
-* The project has switched to a community governance model.
-  * Governance model now covers steering team, composition, responsibilities, meetings, decision making process, lazy consensus, voting, and code of Conduct.
-  * The website is now located at the new domain [https://www.standardforpubliccode.org/](https://www.standardforpubliccode.org/).
-  * SPDX copyright text updated for all project files.
-* Removed optional requirement in Document the code about tempting examples.
-* Criteria texts have been slightly simplified, to be more easily understood, with less technical terms.
-* The repository README has received documentation improvements.
-* The CHANGELOG was renamed to RELEASE_NOTES.
-* Improvements to release guidelines.
-* Made minor changes to text for clarity and consistency.
+* 本專案已經改為社群治理模型。
+  * 治理模型現在涵蓋指導團隊、成員組成、責任、會議、決策流程、懶惰共識決、投票以及行為守則。
+  * 官網現在已經換到全新網域： [https://www.standardforpubliccode.org/](https://www.standardforpubliccode.org/).
+  * 所有專案檔案皆已更新其SPDX 著作權聲明。
+* 已刪除文件內與示例內容相關的可選要求。
+* 準則相關文字稍微簡化，減少技術性詞彙，讀者更容易理解。
+* 「README」儲存庫文件已獲得改善。
+* 「CHANGELOG」改名為「RELEASE_NOTES」。
+* 改善了送交版次準則。
+* 細微調整文字，使其更清楚一致。
 
 ## 0.8.0 版
 
