@@ -7,25 +7,25 @@
 
 《公共程式標準》是由社群治理的專案。
 
-## Principles
+## 原則
 
-The Standard for Public Code community adheres to the following principles:
+公共程式標準社群遵守下列原則：
 
-- Open - as little restrictions as possible for anyone to adapt the Standard for Public Code to their context
-- Welcoming and respectful - as a community we want to make it easier for new users to become contributors
-- Transparent and accessible - changes to the Standard for Public Code, its governance, and any other related activity are done in public
-- Ideas and contributions are accepted according to their alignment with project objectives, scope, and design principles
+- 開放 - 讓任何人都可以輕易在其情境中採用公共程式標準。
+- 歡迎並尊重任何人 - 身為一個社群，我們要讓新用戶也可以容易成為貢獻者。
+- 透明與容易取用 - 公共程式標準的任何變動、治理與相關活動都是透明公開。
+- 我們接受符合專案目標、範圍以及設計原則的任何構想與貢獻。
 
-## Steering team
+## 指導團隊
 
-The community of Standard for Public Code has one steering team.
+公共程式標準社群有一個指導團隊。
 
-### Composition
+### 成員組成
 
-Any active contributor in the community can request to become a steering team member by asking the steering team.
-The steering team will vote on it (see voting below).
+社群當中任何一位活躍的貢獻者，如果有意加入指導團隊，都可以向指導團隊提出要求。
+收到要求的指導團隊會投票表決 (請參閱下方「投票」段落)。
 
-The current team members are:
+目前指導團隊成員包括：
 
 - Claus Mullie
 - Johan Groenen (Tiltshift, Code for NL)
@@ -35,68 +35,68 @@ The current team members are:
 - [Bastien Guerry](https://bzg.fr)
 - Anton Wiklund (Arbetsförmedlingen)
 
-Ideally, no single organization will employ a majority of the steering team.
+理想狀況就是指導團隊成員來自各個不同組織。
 
-### Responsibilities
+### 責任
 
-The steering team members are active contributors who are on a day-to-day basis responsible for:
+指導團隊成員都是活躍的貢獻者，並且每天負責：
 
-- Merging pull requests
-- Handling code of conduct violations
+- 合併拉取請求
+- 處理行為準則的違規情事
 
-Besides the day-to-day activities, the steering team has the joint responsibility to:
+除了每日例行作業，指導團隊整體也承擔下列責任：
 
-- Provide technical direction for the codebase
-- Maintain a roadmap, and contributing principles
-- Resolve issues in development or conflicts between contributors
-- Managing and planning releases
-- Controlling access rights to Standard for Public Code assets such as source repositories, hosting and project calendars
-- Maintaining the mission, vision, values, and scope of the project
-- Refining the governance as needed
-- Making codebase level decisions
-- Managing the Standard for Public Code brand
-- Licensing and intellectual property changes
+- 提供程式基底的技術指導
+- 維持發展路徑圖以及貢獻原則
+- 解決開發問題以及協調貢獻者之間的衝突
+- 管理與規劃軟體發佈版本
+- 控管公共程式標準資產（像是原始碼儲存庫、託管以及專案日程）的存取權
+- 維護專案的使命、願景、價值以及範圍
+- 視需求將專案治理更精細化
+- 針對程式基底做出決策
+- 管理公共程式標準的品牌
+- 授權與智慧財產權變動
 
-### Meetings
+### 會議
 
-The steering team meets regularly.
-Their agenda includes review of the roadmap and issues that are at an impasse.
-The intention of the agenda is not to review or approve all patches.
-(Reviewing and approving patches is done through the process described in [CONTRIBUTING.md](CONTRIBUTING.md).)
+指導團隊定期開會。
+會議主題包括檢討發展路徑圖以及目前陷入僵局的問題。
+會議主題的目的並非審查或通過所有程式修補內容。
+(程式修補內容的審查與核准都依照 [CONTRIBUTING.md](CONTRIBUTING.md).所述流程進行)。
 
-## Decision making process
+## 決策流程
 
-The decision making process is consent as a default, and voting for certain matters.
+指導團隊預設決策方式為認可決，只有在某些議題才會透過投票決定。
 
-### Consent
+### 認可決
 
-For this community, “consent” means that if you think that a decision is uncontroversial you can just go ahead and make that decision.
-Any decision made this way is considered supported as long as no one objects.
-Of course, you have to be prepared to roll back your work if someone does object.
+如果你認為一個決策沒有任何爭議，就可以做出該決策，這就是本社群對「認可決」的定義。
+只有無人反對，透過認可決所做出的決策都被視為受到所有人的支持。
+當然若有人反對，你也必須做好轉返的準備。
 
-If there is uncertainty about a decision, a steering team member can inform the rest of the team that they are about to take a certain decision.
-If no team member objects within 96 hours, the decision is considered supported.
-If objections are made, and no solutions can be found through discussion, a team member can call for a majority vote on a decision, see below.
+若對一個決策有疑慮，指導團隊成員可告知其他成員他/她即將做出某個決策。
+通知後的96小時內，若指導團隊無人反對，則可視為指導團隊都支持該決策。
+若有人反對且無法透過討論取得共識，則團隊成員可以依照下列步驟要求進行多數決投票。
 
-### Voting
+### 投票
 
-Every steering team member has 1 vote.
-All votes are recorded publicly.
+每位指導團隊成員都有一票。
+採公開投票。
 
-Many of the day-to-day project maintenance tasks can be done with the consent decision-making process.
-But the following items **must** be called to vote:
+每日例行專案維護作業，許多都能透過認可決做決策。
+但以下項目「必須」透過投票表決：
 
-- Adding a team member (simple majority)
-- Removing a team member (super majority)
-- Changing the governance rules (this document) (super majority)
-- Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
-- Adding, archiving, or removing sub-projects (simple majority)
+- 新增團隊成員 (簡單多數決)
+- 剔除團隊成員 (絕對多數決)
+- 變更治理規則 (本文件) (絕對多數決)
+- 授權與智慧財產權變動 (包括新的標誌、文字標誌)變更 (簡單多數決)
+- 新增、封存或移除子專案 (簡單多數決)
 
-By simple majority, we mean that at least half of the steering team members have voted in favor, and super majority two thirds of the steering team members.
+「簡單多數決」就是至少有半數的指導團隊成員投下同意票，「絕對多數決」則是有2/3的團隊成員投下同意票。
 
-## Code of Conduct
+## 行為守則
 
-The Standard for Public Code's Code of Conduct is explained in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+公共程式標準行為守則在 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)當中。
 
-If the possible violation involves a team member that member will be recused from voting on the issue.
-Such issues must be escalated to the steering team contact, and the steering team may choose to intervene.
+若指導團隊成員可能違反該守則，該成員將無法針對其議題投票。
+若有違反行為守則之情事發生，則應該往上通報給指導團隊，由指導團隊決定如何干預。
