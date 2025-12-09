@@ -7,11 +7,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-remote_theme: yanyiyi/jekyll-theme
+remote_theme: standard-for-public-code/jekyll-theme
 
-url: "https://publiccode.ospo.tw"
-baseurl: ""
-repository: ocftw/standard-for-public-code
+#baseurl: /standard-for-public-code
 
 include:
   - "README.md"
