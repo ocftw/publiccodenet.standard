@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: CC0-1.0 */
-/* SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS */
+/* SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS */
 html, .markdown-body {
-  font-family: Mulish;
+  font-family: Mulish, "Noto Sans TC", "PingFangTC", "Heiti TC", sans-serif;
   font-size: 11pt;
 }
 
@@ -32,7 +32,7 @@ html, .markdown-body {
 
 article>p, article>ul, article>ol {
   position: relative;
-  max-width: 27rem;
+  max-width: 29rem;
 }
 
 article {
@@ -51,10 +51,10 @@ a:link:before {
   break-inside: avoid;
   display: block;
   right: 0;
-  width: 6cm;
-  margin-right: -7cm;
+  width: 6.25cm;
+  margin-right: -6.75cm;
   padding: 0.25rem;
-  line-height: 1.25;
+  line-height: 1.15;
   text-align: left;
   float: right;
   clear: both;
@@ -68,7 +68,7 @@ a[href^="http"]:link {
 }
 a[href^="http"]:before {
   content: "" attr(href) "";
-  font-size: .75em;
+  font-size: .45em;
 }
 a[href^="#"] {
   color: black;
@@ -240,7 +240,7 @@ ul.first-page-audiences {
   display: block;
   right: 0;
   width: 0.8cm;
-  margin-right: -7cm;
+  margin-right: -5cm;
   padding: 0.25rem;
   line-height: 1.25;
   text-align: right;

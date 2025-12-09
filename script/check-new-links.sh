@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2021-2022 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2021-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 # This script is referenced by .github/workflows/test.yml which executes on
 # each pull request.
@@ -16,6 +16,7 @@ SKIP_PATTERNS=(
 	'twitter\.com' # twitter is broken
 	'http://127.0.0.1' # local host
 	'http://localhost' # local host
+	'github.com/.*RELEASE_NOTES.md' # link does not exist yet
 )
 
 if [ "_${VERBOSE}_" == "__" ]; then VERBOSE=0; fi

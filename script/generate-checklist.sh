@@ -1,15 +1,18 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2023-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 TEMPLATE=docs/checklist.html
 THIS_YEAR=$(date +%Y)
 STANDARD_VERSION="${1}"
+if [ "_${STANDARD_VERSION}_" == "__" ]; then
+	STANDARD_VERSION=$( script/git-repo-version.sh )
+fi
 cat << EOF > $TEMPLATE
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- SPDX-FileCopyrightText: $THIS_YEAR by The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+<!-- SPDX-FileCopyrightText: $THIS_YEAR Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2023-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 <head>
 <meta charset="UTF-8">
 <title>Standard for Public Code Checklist</title>
@@ -64,7 +67,7 @@ for FILE in $CRITERIA_FILES; do
 	CRITERION_TITLE=$(grep '^# [A-Z]' $FILE \
 		| grep --invert-match 'SPDX' \
 		| cut --fields=2- --delimiter=' ')
-	CRITERION_LINK=https://standard.publiccode.net/criteria/${FILE_BASE}.html
+	CRITERION_LINK=https://www.standardforpubliccode.org/criteria/${FILE_BASE}.html
 	cat << EOF >> $TEMPLATE
 
 <h2>&#9744; $CRITERION_TITLE</h2>
@@ -78,7 +81,7 @@ EOF
 	awk 'BEGIN {p=0}; /## Requirements/ {p=1 ; next}; /##/ {p=0 ; next}; \
 		p { s = ""; for (i = 2; i <= NF; i++) s = s $i " "; \
 		if (length(s) > 0) print \
-		"<li>" s "</li>"}' \
+		"<li>&nbsp;" s "</li>"}' \
 		$FILE >> $TEMPLATE
 	echo "</ul>" >> $TEMPLATE
 done

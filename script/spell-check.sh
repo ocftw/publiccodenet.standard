@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2023 The Foundation for Public Code <info@publiccode.net>
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2023-2024 The Foundation for Public Code <info@publiccode.net>
 
 # help set
 #       -e  Exit immediately if a command exits with a non-zero status.
@@ -19,7 +19,7 @@ function git_list_files() {
 		HEAD
 }
 
-IGNORE_PATTERN='\.css$\|\.svg$\|\.json$\|CNAME$\|Gemfile$\|LICENSE$\|\.sh$\|\.gitignore$\|.github.*\|jargon.txt$'
+IGNORE_PATTERN='\.css$\|\.svg$\|\.json$\|CNAME$\|Gemfile$\|LICENSE$\|\.sh$\|\.gitignore$\|.github.*\|jargon.txt$\|_config.yml$'
 
 ERRORS=0
 for FILE in $(git_list_files | grep --invert-match $IGNORE_PATTERN); do

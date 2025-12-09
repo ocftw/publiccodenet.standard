@@ -1,6 +1,6 @@
 #!/bin/sh
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2021-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2021-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 # This script is referenced by .github/workflows/test.yml which executes on
 # each pull request.
@@ -10,4 +10,6 @@
 # script is intended to aid in that process.
 
 # Lint markdown using the rules loaded with .mdlrc, .mdl_style.rb
-bundle exec mdl -i -g '.'
+# -g, --git-recurse                Only process files known to git when given a directory
+# -i, --[no-]ignore-front-matter   Ignore YAML front matter
+bundle exec mdl --ignore-front-matter --git-recurse '.'

@@ -1,15 +1,18 @@
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2019-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2019-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
-title: Standard for Public Code
+title: 公共程式標準
 
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-repository: publiccodenet/jekyll-theme
+remote_theme: yanyiyi/jekyll-theme
 
-remote_theme: Lin-Chia-Cheng/publiccodenet.jekyll-theme
+url: "https://publiccode.ospo.tw"
+baseurl: ""
+repository: ocftw/standard-for-public-code
+
 include:
   - "README.md"
   - "CONTRIBUTING.md"
@@ -19,6 +22,9 @@ include:
   - "docs/review-template.html"
 
 toc: true
+
+hide_foundation_footer: true
+hide_foundation_footer_logo: true
 
 include_badges: true
 include_translations: true

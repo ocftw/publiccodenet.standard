@@ -1,15 +1,18 @@
 #!/bin/bash
 # SPDX-License-Identifier: CC0-1.0
-# SPDX-FileCopyrightText: 2022-2023 The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS
+# SPDX-FileCopyrightText: 2025 Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2022-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS
 
 TEMPLATE=docs/review-template.html
 THIS_YEAR=$(date +%Y)
 STANDARD_VERSION="${1}"
+if [ "_${STANDARD_VERSION}_" == "__" ]; then
+	STANDARD_VERSION=$( script/git-repo-version.sh )
+fi
 cat << EOF > $TEMPLATE
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!-- SPDX-License-Identifier: CC0-1.0 -->
-<!-- SPDX-FileCopyrightText: 2022-$THIS_YEAR by The Foundation for Public Code <info@publiccode.net>, https://standard.publiccode.net/AUTHORS -->
+<!-- SPDX-FileCopyrightText: $THIS_YEAR Standard for Public Code Authors, https://www.standardforpubliccode.org/AUTHORS; 2022-2024 The Foundation for Public Code <info@publiccode.net>, https://www.standardforpubliccode.org/AUTHORS -->
 <head>
 <meta charset="UTF-8">
 <title>________ and the Standard for Public Code</title>
@@ -77,7 +80,7 @@ for FILE in $CRITERIA_FILES; do
 	CRITERION_TITLE=$(grep '^# [A-Z]' $FILE \
 		| grep --invert-match 'SPDX' \
 		| cut --fields=2- --delimiter=' ')
-	CRITERION_LINK=https://standard.publiccode.net/criteria/${FILE_BASE}.html
+	CRITERION_LINK=https://www.standardforpubliccode.org/criteria/${FILE_BASE}.html
 	cat << EOF >> $TEMPLATE
 
 <h2><a href="$CRITERION_LINK">$CRITERION_TITLE</a></h2>
@@ -111,7 +114,7 @@ sed -i -e's@\[\([^]]*\)\](../glossary.md\(#[a-z\-]*\))@\1@g' $TEMPLATE
 
 # fully qualify local criteria links in requirement lines
 # by looking for links lacking a colon
-sed -i -e's@\[\([^]]*\)\](\([^:)]*\).md)@[\1](https://standard.publiccode.net/criteria/\2.html)@g' $TEMPLATE
+sed -i -e's@\[\([^]]*\)\](\([^:)]*\).md)@[\1](https://www.standardforpubliccode.org/criteria/\2.html)@g' $TEMPLATE
 
 # convert markdown links to html links
 sed -i -e's@\[\([^]]*\)\](\([^)]*\))@<a href="\2">\1</a>@g' $TEMPLATE
