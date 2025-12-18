@@ -20,7 +20,7 @@ redirect_from:
 ## 需求規定
 
 * 程式基底文件所採用的官方語言範圍，「必須」明確記載。
-* 英文必須列為程式基底文件的官方語言之一。
+* 程式基底的所有文件，英文「必須」列為官方語言之一。
 * 程式基底的所有文件在所選的官方語言，都「必須」同步更新。
 * 所有[原始碼](../glossary.md#source-code)都「必須」使用英語編寫，其中[政策](../glossary.md#policy)是由機器解讀當作程式碼的部分則除外。
 * 任何合捆的政策都「必須」要有官方語言的版本，或是官方語言版摘要。
@@ -53,7 +53,7 @@ redirect_from:
 
 * 經常與政策制定者和管理人員測試，確認他們瞭解您正要交付的程式碼與其文件的內容。
 * 詢問身處不同背景情境的人（像是另一個程式基底的開發人員）是否能瞭解內容。
-* If there are both required authoritative translations and "best effort" courtesy translations, then ensure that it is clearly documented which category each translation belongs to.
+* 如果文件有必須的官方翻譯，也有盡力提供的非正式翻譯，務必清楚記錄每個翻譯所屬的類別。
 
 ## 延伸閱讀
 
