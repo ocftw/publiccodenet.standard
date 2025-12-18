@@ -19,8 +19,8 @@ redirect_from:
 
 ## 需求規定
 
-* The set of authoritative languages for codebase documentation MUST be documented.
-* English MUST be one of the authoritative languages.
+* 程式基底文件所採用的官方語言範圍，「必須」明確記載。
+* 英文「必須」為官方語言之一。
 * 程式基底的所有文件在所選的官方語言，都「必須」同步更新。
 * 所有[原始碼](../glossary.md#source-code)都「必須」使用英語編寫，其中[政策](../glossary.md#policy)是由機器解讀當作程式碼的部分則除外。
 * 任何合捆的政策都「必須」要有官方語言的版本，或是官方語言版摘要。
